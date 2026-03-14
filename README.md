@@ -28,3 +28,25 @@ npm install
 
 # Start the development server
 npm run dev
+
+# Lint code
+npm run lint
+
+# Format code
+npm run format
+```
+
+## Environment Variables
+
+You can create a `.env` file to customize runtime behavior:
+
+```bash
+# Optional: base path for static deployments (defaults to "/")
+VITE_BASE_PATH=/gabriel-becker-vue-resume/
+
+# Optional: force-enable external analytics in development
+VITE_ENABLE_ANALYTICS=false
+
+# Optional: force-enable contact e-mail sending in development
+VITE_ENABLE_EMAILS=false
+```

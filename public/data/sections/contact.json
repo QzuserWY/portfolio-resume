@@ -1,66 +1,41 @@
 {
-    "articles": [
-        {
-            "id": 1,
-            "component": "ArticleContactForm",
-            "locales": {
-                "en": {
-                    "contact_thank_you": "*Thanks* for the contact!",
-                    "contact_thank_you_description": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
-                    "contact_thank_you_reply": "The reply will be sent to your email address *{email}*."
-                },
-                "pt": {
-                    "contact_thank_you": "*Obrigado* pelo contato!",
-                    "contact_thank_you_description": "Sua mensagem foi recebida, e entrarei em contato em breve. Agradeço pelo seu tempo e espero poder me conectar com você!",
-                    "contact_thank_you_reply": "A resposta será enviada para o seu endereço de e-mail *{email}*."
-                },
-                "ru": {
-                    "contact_thank_you": "*Спасибо* за контакт!",
-                    "contact_thank_you_description": "Ваше сообщение получено, и я свяжусь с вами в ближайшее время. Я ценю ваше время и надеюсь на скорую связь с вами!",
-                    "contact_thank_you_reply": "Ответ будет отправлен на ваш адрес электронной почты *{email}*."
-                },
-                "ja": {
-                    "contact_thank_you": "*お問い合わせありがとうございます*",
-                    "contact_thank_you_description": "あなたのメッセージは受け取られ、すぐにご連絡いたします。お時間をいただき、ありがとうございます！",
-                    "contact_thank_you_reply": "返信はあなたのメールアドレス *{email}* に送信されます。"
-                }
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc",
-                "contact_js_public_key": "tzObcsmOwHvPy6Rhp",
-                "contact_js_service_id": "service_4h8g7vb",
-                "contact_js_template_id": "template_react"
-            },
-            "items": null
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleContactOptions",
+      "locales": {
+        "zh": {
+          "title": "联系方式",
+          "description": "欢迎通过以下方式与我联系，期待交流合作。",
+          "quote": "真正有价值的交付，不止能跑通流程，还能让团队更安心。"
         },
-        {
-            "id": 2,
-            "component": "ArticleContactOptions",
-            "locales": {
-                "en": {
-                    "title": "Or...",
-                    "description": "If you prefer, you can reach out to me through the following options:"
-                },
-                "pt": {
-                    "title": "Ou...",
-                    "description": "Se preferir, você pode entrar em contato comigo através das seguintes opções:"
-                },
-                "ru": {
-                    "title": "Или...",
-                    "description": "Если вы предпочитаете, вы можете связаться со мной через следующие варианты:"
-                },
-                "ja": {
-                    "title": "または...",
-                    "description": "もしよろしければ、以下の方法でご連絡いただけます:"
-                }
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc",
-                "contact_ids": ["phone", "email", "medium", "linkedin", "x", "discord"]
-            },
-            "items": null
+        "en": {
+          "title": "Contact Me",
+          "description": "Feel free to reach out through the channels below.",
+          "quote": "I believe good technology should never make us distant. It should make communication more sincere and people closer."
+        },
+        "pt": {
+          "title": "Contato",
+          "description": "Fique à vontade para entrar em contato pelos canais abaixo.",
+          "quote": "Eu acredito que a boa tecnologia nao deve nos tornar frios. Ela deve tornar a comunicacao mais sincera e aproximar as pessoas."
+        },
+        "ru": {
+          "title": "Контакты",
+          "description": "Свяжитесь со мной удобным для вас способом ниже.",
+          "quote": "Я верю, что хорошие технологии не должны делать нас холоднее. Они должны делать общение искреннее и людей ближе."
+        },
+        "ja": {
+          "title": "お問い合わせ",
+          "description": "以下の方法でお気軽にご連絡ください。",
+          "quote": "良い技術は人を冷たくするものではなく、対話をより誠実にし、人と人の距離を近づけるものだと信じています。"
         }
-    ]
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "contact_ids": ["phone", "email"]
+      },
+      "items": null
+    }
+  ]
 }
