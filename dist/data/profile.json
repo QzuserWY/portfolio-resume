@@ -1,0 +1,65 @@
+{
+    "name": "王钰",
+    "profilePictureUrl": "images/content/pfp.jpg",
+
+    "locales": {
+        "zh": {
+            "name": "王钰",
+            "credits": "个人简历主页",
+            "role": "AI应用工程师"
+        },
+        "en": {
+            "name": "Wang Yu",
+            "credits": "Personal Resume Portfolio",
+            "role": "AI Application Engineer"
+        }
+    },
+
+    "contactOptions": [
+        {
+            "id": "phone",
+            "value": "15719249378",
+            "valueShort": "15719249378",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:15719249378",
+            "copy": true
+        },
+        {
+            "id": "email",
+            "value": "herr_wan@163.com",
+            "valueShort": "herr_wan@163.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:herr_wan@163.com",
+            "copy": true
+        },
+        {
+            "id": "location",
+            "faIcon": "pi pi-map-marker",
+            "href": null,
+            "locales": {
+                "zh": {
+                    "value": "陕西省西安市",
+                    "valueShort": "西安市"
+                },
+                "en": {
+                    "value": "Xi'an, Shaanxi, China",
+                    "valueShort": "Xi'an, Shaanxi"
+                }
+            }
+        },
+        {
+            "id": "age",
+            "value": "26岁",
+            "valueShort": "26岁",
+            "faIcon": "fa-solid fa-user",
+            "copy": false
+        },
+        {
+            "id": "cet4",
+            "value": "CET-4",
+            "valueShort": "CET-4",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "copy": false
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "个人爱好" },
+                "en": { "title": "Hobbies" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
+                "small_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-solid fa-gamepad",
+                    "fallbackFaIconColor": "#722ed1",
+                    "percentage": 30,
+                    "locales": {
+                        "zh": {
+                            "title": "独立游戏爱好者",
+                            "description": "热爱探索各类独立游戏，深入研究游戏设计与机制，擅长Mod开发"
+                        },
+                        "en": {
+                            "title": "Indie Game Enthusiast",
+                            "description": "Love exploring indie games and studying game design"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-microscope",
+                    "fallbackFaIconColor": "#1890ff",
+                    "percentage": 25,
+                    "locales": {
+                        "zh": {
+                            "title": "研究新技术",
+                            "description": "持续关注 AI、大模型等前沿技术动态，探索新技术在实际项目中的应用"
+                        },
+                        "en": {
+                            "title": "Tech Research",
+                            "description": "Continuously following AI and cutting-edge technologies"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-person-biking",
+                    "fallbackFaIconColor": "#52c41a",
+                    "percentage": 20,
+                    "locales": {
+                        "zh": {
+                            "title": "户外骑行",
+                            "description": "喜欢骑行探索城市周边，享受沿途风景，放松身心"
+                        },
+                        "en": {
+                            "title": "Cycling",
+                            "description": "Enjoy cycling and exploring surroundings"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-couch",
+                    "fallbackFaIconColor": "#faad14",
+                    "percentage": 15,
+                    "locales": {
+                        "zh": {
+                            "title": "在家沉思",
+                            "description": "安静思考人生，享受独处时光，阅读技术书籍"
+                        },
+                        "en": {
+                            "title": "Contemplation",
+                            "description": "Quiet thinking and enjoying solitary time"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "fallbackFaIcon": "fa-solid fa-book",
+                    "fallbackFaIconColor": "#eb2f96",
+                    "percentage": 10,
+                    "locales": {
+                        "zh": {
+                            "title": "阅读",
+                            "description": "喜欢阅读各类技术书籍和文学作品，持续充实自己"
+                        },
+                        "en": {
+                            "title": "Reading",
+                            "description": "Enjoy reading technical books and literature"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

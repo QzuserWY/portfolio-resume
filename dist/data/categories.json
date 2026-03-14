@@ -1,0 +1,44 @@
+{
+    "categories": [
+        {
+            "id": "profile",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": { "nav_label": "Profile" },
+                "pt": { "nav_label": "Perfil" },
+                "ru": { "nav_label": "Профиль" },
+                "ja": { "nav_label": "プロフィール" }
+            }
+        },
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": { "nav_label": "Background" },
+                "pt": { "nav_label": "Histórico" },
+                "ru": { "nav_label": "История" },
+                "ja": { "nav_label": "履歴" }
+            }
+        },
+        {
+            "id": "portfolio",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": { "nav_label": "Portfolio" },
+                "pt": { "nav_label": "Portfólio" },
+                "ru": { "nav_label": "Портфолио" },
+                "ja": { "nav_label": "ポートフォリオ" }
+            }
+        },
+        {
+            "id": "contact",
+            "faIcon": "fa-regular fa-envelope",
+            "locales": {
+                "en": { "nav_label": "Contact" },
+                "pt": { "nav_label": "Contato" },
+                "ru": { "nav_label": "Контакт" },
+                "ja": { "nav_label": "連絡先" }
+            }
+        }
+    ]
+}
