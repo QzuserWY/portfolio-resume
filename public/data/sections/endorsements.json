@@ -3,179 +3,92 @@
         {
             "id": 1,
             "component": "ArticleSkills",
-            "locales": {},
+            "locales": {
+                "zh": { "title": "个人优势" },
+                "en": { "title": "Personal Strengths" }
+            },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "desc",
-                "max_items_per_line": 1,
-                "transparent_item_icon_background": true,
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
                 "small_icons": false
             },
             "items": [
                 {
                     "id": 1,
-                    "fallbackFaIcon": "fa-regular fa-user",
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": "#722ed1",
                     "locales": {
+                        "zh": {
+                            "title": "AI 时代新技能",
+                            "description": "善于使用主流 AI 应用（Cursor、OpenClaw 等），具备 AI 思维，能够利用 AI 工具提升开发效率，实现需求调研、开发、部署、文档编写一体化工作流程。"
+                        },
                         "en": {
-                            "title": "Angela Weber",
-                            "description": "Chief Technology Officer at <em>CyberSafe Securities</em>.<br><strong class='text-muted'>angelaweber@email.com</strong>"
-                        },
-                        "pt": {
-                            "title": "Angela Weber",
-                            "description": "Diretora de Tecnologia da <em>CyberSafe Securities</em>.<br><strong class='text-muted'>angelaweber@email.com</strong>"
-                        },
-                        "ru": {
-                            "title": "Анжела Вебер",
-                            "description": "Главный технический директор в <em>CyberSafe Securities</em>.<br><strong class='text-muted'>angelaweber@email.com</strong>"
-                        },
-                        "ja": {
-                            "title": "アンジェラ・ウェーバー",
-                            "description": "<em>サイバーセーフ証券</em>の最高技術責任者。<br><strong class='text-muted'>angelaweber@email.com</strong>"
+                            "title": "AI Era Skills",
+                            "description": "Proficient in mainstream AI tools (Cursor, OpenClaw), with AI mindset to improve development efficiency."
                         }
-                    },
-                    "links": [
-                        {"href": "https://linkedin.com", "stringKey": "view_on_linkedin"}
-                    ]
+                    }
                 },
                 {
                     "id": 2,
-                    "fallbackFaIcon": "fa-regular fa-user",
+                    "fallbackFaIcon": "fa-solid fa-rocket",
+                    "fallbackFaIconColor": "#1890ff",
                     "locales": {
+                        "zh": {
+                            "title": "快速学习能力",
+                            "description": "具备良好的自学能力和动手能力，能够快速学习和应用新技术。"
+                        },
                         "en": {
-                            "title": "Takashi Yamamoto",
-                            "description": "Senior Data Scientist at <em>Hikari Technologies</em>.<br><strong class='text-muted'>yamamoto.tk@hikari.jp</strong>",
-                            "level": ""
-                        },
-                        "pt": {
-                            "title": "Takashi Yamamoto",
-                            "description": "Cientista de Dados Sênior na <em>Hikari Technologies</em>.<br><strong class='text-muted'>yamamoto.tk@hikari.jp</strong>"
-                        },
-                        "ru": {
-                            "title": "Такасхи Ямамото",
-                            "description": "Старший научный сотрудник по данным в <em>Hikari Technologies</em>.<br><strong class='text-muted'>yamamoto.tk@hikari.jp</strong>"
-                        },
-                        "ja": {
-                            "title": "山本 隆",
-                            "description": "<em>光テクノロジーズ</em>のシニアデータサイエンティスト。<br><strong class='text-muted'>yamamoto.tk@hikari.jp</strong>"
+                            "title": "Fast Learning",
+                            "description": "Good self-learning ability, quickly master new technologies."
                         }
-                    },
-                    "links": [
-                        {"href": "https://linkedin.com", "stringKey": "view_on_linkedin"}
-                    ]
+                    }
                 },
                 {
                     "id": 3,
-                    "fallbackFaIcon": "fa-regular fa-user",
+                    "fallbackFaIcon": "fa-solid fa-clock",
+                    "fallbackFaIconColor": "#52c41a",
                     "locales": {
+                        "zh": {
+                            "title": "自我驱动",
+                            "description": "自我驱动和自我管理能力强，能够有效规划和管理工作进程，确保任务准时完成。"
+                        },
                         "en": {
-                            "title": "Aiko Nishimura",
-                            "description": "Lead Software Engineer at <em>Konami Digital Ent</em>.<br><strong class='text-muted'>nishimura.aiko@konami.jp</strong>"
-                        },
-                        "pt": {
-                            "title": "Aiko Nishimura",
-                            "description": "Eng. de Software Líder na <em>Konami Digital Ent</em>.<br><strong class='text-muted'>nishimura.aiko@konami.jp</strong>"
-                        },
-                        "ru": {
-                            "title": "Айко Нисимура",
-                            "description": "Ведущий инженер-программист в <em>Konami Digital Ent</em>.<br><strong class='text-muted'>nishimura.aiko@konami.jp</strong>"
-                        },
-                        "ja": {
-                            "title": "西村 愛子",
-                            "description": "<em>コナミデジタルエンタテインメント</em>のリードソフトウェアエンジニア。<br><strong class='text-muted'>nishimura.aiko@konami.jp</strong>"
+                            "title": "Self-Driven",
+                            "description": "Strong self-drive and time management, ensure tasks completed on time."
                         }
-                    },
-                    "links": [
-                        {"href": "https://linkedin.com", "stringKey": "view_on_linkedin"}
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "component": "ArticleSkills",
-            "locales": {
-                "en": {
-                    "title": "Awards",
-                    "description": "Also check out some of the awards and recognitions I have received throughout my career:"
-                },
-                "pt": {
-                    "title": "Premiações",
-                    "description": "Confira também algumas das premiações e reconhecimentos que recebi ao longo da minha carreira:"
-                },
-                "ru": {
-                    "title": "Награды",
-                    "description": "Также ознакомьтесь с некоторыми наградами и признаниями, которые я получил за свою карьеру:"
-                },
-                "ja": {
-                    "title": "受賞歴",
-                    "description": "私のキャリアを通じて受けた賞や認識の一部もご覧ください:"
-                }
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "desc",
-                "max_items_per_line": 1,
-                "transparent_item_icon_background": true,
-                "small_icons": false
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "fallbackFaIcon": "fa-regular fa-star",
-                    "locales": {
-                        "en": {
-                            "title": "ICB Hackathon: Most Innovative Project",
-                            "description": "Awarded for developing a predictive analytics tool that improved customer engagement by <strong>30%</strong>.",
-                            "level": "2023"
-                        },
-                        "pt": {
-                            "title": "Hackathon ICB: Projeto Mais Inovador",
-                            "description": "Premiado por desenvolver uma ferramenta de análise preditiva que melhorou o engajamento do cliente em <strong>30%</strong>.",
-                            "level": "2023"
-                        },
-                        "ru": {
-                            "title": "Хакатон ICB: Самый Инновационный Проект",
-                            "description": "Награжден за разработку инструмента предиктивной аналитики, который улучшил вовлеченность клиентов на <strong>30%</strong>.",
-                            "level": "2023"
-                        },
-                        "ja": {
-                            "title": "ICBハッカソン：最も革新的なプロジェクト",
-                            "description": "顧客エンゲージメントを<strong>30%</strong>向上させる予測分析ツールを開発したことで受賞。",
-                            "level": "2023"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://google.com", "stringKey": "view_more_info"}
-                    ]
+                    }
                 },
                 {
-                    "id": 2,
-                    "fallbackFaIcon": "fa-regular fa-star",
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-comments",
+                    "fallbackFaIconColor": "#faad14",
                     "locales": {
+                        "zh": {
+                            "title": "沟通与逻辑",
+                            "description": "出色的沟通能力和较强的逻辑思维，能够清晰表达和解决复杂问题。"
+                        },
                         "en": {
-                            "title": "DST Conference: Best Paper",
-                            "description": "Recognized for a paper on <strong>machine learning applications</strong> in real-time data processing, which was published in the conference proceedings.",
-                            "level": "2025"
-                        },
-                        "pt": {
-                            "title": "Conferência DST: Melhor Artigo",
-                            "description": "Reconhecido por um artigo sobre <strong>aplicações de aprendizado de máquina</strong> no processamento de dados em tempo real, que foi publicado nos anais da conferência.",
-                            "level": "2025"
-                        },
-                        "ru": {
-                            "title": "Конференция DST: Лучший Доклад",
-                            "description": "Признан за статью о <strong>применении машинного обучения</strong> в обработке данных в реальном времени, которая была опубликована в материалах конференции.",
-                            "level": "2025"
-                        },
-                        "ja": {
-                            "title": "DST会議：最優秀論文",
-                            "description": "リアルタイムデータ処理における<strong>機械学習の応用</strong>に関する論文が認められ、会議の議事録に掲載されました。",
-                            "level": "2025"
+                            "title": "Communication",
+                            "description": "Excellent communication and logical thinking, can clearly express and solve complex problems."
                         }
-                    },
-                    "links": [
-                        {"href": "https://google.com", "stringKey": "view_more_info"}
-                    ]
+                    }
+                },
+                {
+                    "id": 5,
+                    "fallbackFaIcon": "fa-solid fa-code-branch",
+                    "fallbackFaIconColor": "#eb2f96",
+                    "locales": {
+                        "zh": {
+                            "title": "技术追求",
+                            "description": "对编写高质量的代码有极高的要求，致力于提供最优解决方案。对新技术保持持续的兴趣。"
+                        },
+                        "en": {
+                            "title": "Tech Pursuit",
+                            "description": "High standards for quality code, always pursuing optimal solutions and new technologies."
+                        }
+                    }
                 }
             ]
         }

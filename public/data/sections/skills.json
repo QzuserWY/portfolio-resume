@@ -3,6 +3,10 @@
         {
             "id": 1,
             "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "AI 应用能力" },
+                "en": { "title": "AI Application Skills" }
+            },
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
@@ -13,89 +17,57 @@
             "items": [
                 {
                     "id": 1,
-                    "fallbackFaIcon": "fa-solid fa-comments",
+                    "fallbackFaIcon": "fa-solid fa-robot",
                     "locales": {
+                        "zh": {
+                            "title": "AI 辅助开发",
+                            "description": "善于使用 Cursor、OpenClaw 等主流 AI 编程工具，集成需求调研、开发、部署、文档编写于一体，提升开发效率。"
+                        },
                         "en": {
-                            "title": "Communication",
-                            "description": "Clear and empathetic communication — whether it’s presenting findings, collaborating with teams, or simplifying complex data for non-technical audiences."
-                        },
-                        "pt": {
-                            "title": "Comunicação",
-                            "description": "Comunicação clara e empática — seja apresentando descobertas, colaborando com equipes ou simplificando dados complexos para públicos não técnicos."
-                        },
-                        "ru": {
-                            "title": "Коммуникация",
-                            "description": "Четкая и эмпатичная коммуникация — будь то представление результатов, сотрудничество с командами или упрощение сложных данных для не технических аудиторий."
-                        },
-                        "ja": {
-                            "title": "コミュニケーション",
-                            "description": "明確で共感的なコミュニケーション — 結果のプレゼンテーション、チームとのコラボレーション、非技術的なオーディエンス向けの複雑なデータの簡素化など。"
+                            "title": "AI-Assisted Development",
+                            "description": "Proficient in using AI coding tools like Cursor and OpenClaw, integrating requirements, development, deployment, and documentation."
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "fallbackFaIcon": "fa-solid fa-people-group",
+                    "fallbackFaIcon": "fa-solid fa-wand-magic-sparkles",
                     "locales": {
+                        "zh": {
+                            "title": "AI 应用集成",
+                            "description": "能够将 AI 能力集成到企业业务系统中，实现智能化升级，提升工作效率和用户体验。"
+                        },
                         "en": {
-                            "title": "Team Collaboration",
-                            "description": "Thrives in collaborative environments — sharing knowledge, listening actively, and working toward common goals with positivity and respect."
-                        },
-                        "pt": {
-                            "title": "Trabalho em Equipe",
-                            "description": "Prospero em ambientes colaborativos — compartilhando conhecimento, ouvindo ativamente e trabalhando em direção a objetivos comuns com positividade e respeito."
-                        },
-                        "ru": {
-                            "title": "Командная Работа",
-                            "description": "Процветает в совместных средах — делясь знаниями, активно слушая и работая над общими целями с позитивом и уважением."
-                        },
-                        "ja": {
-                            "title": "チームコラボレーション",
-                            "description": "協力的な環境での活躍 — 知識を共有し、積極的に聞き、共通の目標に向かって前向きに尊重しながら取り組む。"
+                            "title": "AI Integration",
+                            "description": "Able to integrate AI capabilities into business systems for intelligent upgrades."
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "fallbackFaIcon": "fa-solid fa-lightbulb",
+                    "fallbackFaIcon": "fa-solid fa-bolt",
                     "locales": {
+                        "zh": {
+                            "title": "快速开发能力",
+                            "description": "借助 AI 工具实现快速原型开发，缩短项目周期，降低开发成本。"
+                        },
                         "en": {
-                            "title": "Problem Solving",
-                            "description": "Approaches challenges with curiosity and creativity — breaking down problems, exploring solutions, and staying calm under pressure."
-                        },
-                        "pt": {
-                            "title": "Resolução de Problemas",
-                            "description": "Abordo desafios com curiosidade e criatividade — decompondo problemas, explorando soluções e mantendo a calma sob pressão."
-                        },
-                        "ru": {
-                            "title": "Решение Проблем",
-                            "description": "Подходит к вызовам с любопытством и креативностью — разбивая проблемы, исследуя решения и оставаясь спокойным под давлением."
-                        },
-                        "ja": {
-                            "title": "問題解決",
-                            "description": "好奇心と創造性を持って課題に取り組む — 問題を分解し、解決策を探求し、プレッシャーの中でも冷静さを保つ。"
+                            "title": "Rapid Development",
+                            "description": "Use AI tools for rapid prototyping, shortening project cycles and reducing costs."
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "fallbackFaIcon": "fa-solid fa-clock",
+                    "fallbackFaIcon": "fa-solid fa-file-lines",
                     "locales": {
+                        "zh": {
+                            "title": "文档自动化",
+                            "description": "利用 AI 自动生成技术文档、API 文档、项目汇报材料，提升文档质量与效率。"
+                        },
                         "en": {
-                            "title": "Time Management",
-                            "description": "Balances priorities and meets deadlines — using planning tools, setting clear goals, and adapting quickly when things shift."
-                        },
-                        "pt": {
-                            "title": "Gestão do Tempo",
-                            "description": "Equilibro prioridades e cumpro prazos — usando ferramentas de planejamento, definindo metas claras e adaptando-se rapidamente quando as coisas mudam."
-                        },
-                        "ru": {
-                            "title": "Управление Временем",
-                            "description": "Балансирует приоритеты и соблюдает сроки — используя инструменты планирования, устанавливая четкие цели и быстро адаптируясь к изменениям."
-                        },
-                        "ja": {
-                            "title": "時間管理",
-                            "description": "優先順位をつけ、締め切りを守る — 計画ツールを使用し、明確な目標を設定し、状況が変わったときに迅速に適応する。"
+                            "title": "Documentation Automation",
+                            "description": "Use AI to automatically generate technical docs, API docs, and reports."
                         }
                     }
                 }
@@ -105,10 +77,8 @@
             "id": 2,
             "component": "ArticleSkills",
             "locales": {
-                "en": { "title": "Programming Languages" },
-                "pt": { "title": "Linguagens de Programação" },
-                "ru": { "title": "Языки Программирования" },
-                "ja": { "title": "プログラミング言語" }
+                "zh": { "title": "技术栈" },
+                "en": { "title": "Tech Stack" }
             },
             "settings": {
                 "order_items_by": "percentage",
@@ -120,127 +90,91 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": { "year": 2018, "month": 1 },
-                    "fallbackFaIcon": "fa-brands fa-python",
+                    "fallbackFaIcon": "fa-brands fa-java",
                     "percentage": 100,
                     "locales": {
+                        "zh": {
+                            "title": "Java",
+                            "description": "SpringBoot、Spring Cloud、MyBatis"
+                        },
                         "en": {
-                            "title": "Python",
-                            "description": "Including libraries such as Pandas, NumPy, and Matplotlib."
-                        },
-                        "pt": {
-                            "description": "Incluindo bibliotecas como Pandas, NumPy e Matplotlib."
-                        },
-                        "ru": {
-                            "description": "Включая библиотеки, такие как Pandas, NumPy и Matplotlib."
-                        },
-                        "ja": {
-                            "description": "Pandas、NumPy、Matplotlibなどのライブラリを含む。"
+                            "title": "Java",
+                            "description": "SpringBoot, Spring Cloud, MyBatis"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "dateStart": { "year": 2019, "month": 3 },
-                    "fallbackFaIcon": "fa-solid fa-database",
-                    "percentage": 95,
+                    "fallbackFaIcon": "fa-solid fa-cloud",
+                    "percentage": 90,
                     "locales": {
+                        "zh": {
+                            "title": "Spring Cloud",
+                            "description": "微服务架构设计与开发"
+                        },
                         "en": {
-                            "title": "SQL",
-                            "description": "Proficient in writing complex SQL queries to extract and analyze data."
-                        },
-                        "pt": {
-                            "description": "Proficiente em escrever consultas SQL complexas para extrair e analisar dados."
-                        },
-                        "ru": {
-                            "description": "Умею писать сложные SQL-запросы для извлечения и анализа данных."
-                        },
-                        "ja": {
-                            "description": "複雑なSQLクエリを作成してデータを抽出および分析することに熟練しています。"
+                            "title": "Spring Cloud",
+                            "description": "Microservices architecture"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "dateStart": { "year": 2020, "month": 5 },
-                    "fallbackFaIcon": "fa-brands fa-r-project",
-                    "percentage": 85,
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "percentage": 75,
                     "locales": {
+                        "zh": {
+                            "title": "AI 工具",
+                            "description": "Cursor、OpenClaw、ChatGPT"
+                        },
                         "en": {
-                            "title": "R",
-                            "description": "Used for statistical computing and data visualization."
-                        },
-                        "pt": {
-                            "description": "Usado para computação estatística e visualização de dados."
-                        },
-                        "ru": {
-                            "description": "Используется для статистических вычислений и визуализации данных."
-                        },
-                        "ja": {
-                            "description": "統計計算とデータ可視化に使用されます。"
+                            "title": "AI Tools",
+                            "description": "Cursor, OpenClaw, ChatGPT"
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "dateStart": { "year": 2019, "month": 7 },
-                    "fallbackFaIcon": "fa-brands fa-js",
-                    "percentage": 75,
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "percentage": 85,
                     "locales": {
+                        "zh": {
+                            "title": "国产数据库",
+                            "description": "人大金仓、神舟通用、MySQL"
+                        },
                         "en": {
-                            "title": "JavaScript",
-                            "description": "Including frameworks like React, Vue and Svelte."
-                        },
-                        "pt": {
-                            "description": "Incluindo frameworks como React, Vue e Svelte."
-                        },
-                        "ru": {
-                            "description": "Включая фреймворки, такие как React, Vue и Svelte."
-                        },
-                        "ja": {
-                            "description": "React、Vue、Svelteなどのフレームワークを含む。"
+                            "title": "Domestic Databases",
+                            "description": "Kingbase, ShenZhou, MySQL"
                         }
                     }
                 },
                 {
                     "id": 5,
-                    "dateStart": { "year": 2021, "month": 2 },
-                    "fallbackFaIcon": "fa-solid fa-chart-line",
+                    "fallbackFaIcon": "fa-brands fa-linux",
                     "percentage": 80,
                     "locales": {
+                        "zh": {
+                            "title": "Linux",
+                            "description": "服务器部署与维护"
+                        },
                         "en": {
-                            "title": "DAX",
-                            "description": "Specially for creating complex calculations and measures in Power BI."
-                        },
-                        "pt": {
-                            "description": "Especialmente para criar cálculos complexos e medidas no Power BI."
-                        },
-                        "ru": {
-                            "description": "Особенно для создания сложных вычислений и мер в Power BI."
-                        },
-                        "ja": {
-                            "description": "Power BIで複雑な計算とメジャーを作成するために特化しています。"
+                            "title": "Linux",
+                            "description": "Server deployment & maintenance"
                         }
                     }
                 },
                 {
                     "id": 6,
-                    "dateStart": { "year": 2021, "month": 6 },
-                    "fallbackFaIcon": "fa-solid fa-cubes",
-                    "percentage": 70,
+                    "fallbackFaIcon": "fa-solid fa-cube",
+                    "percentage": 75,
                     "locales": {
+                        "zh": {
+                            "title": "Redis / MQTT",
+                            "description": "缓存与消息队列"
+                        },
                         "en": {
-                            "title": "Power Query M",
-                            "description": "Used for data transformation and preparation in Power BI and Excel."
-                        },
-                        "pt": {
-                            "description": "Usado para transformação e preparação de dados no Power BI e Excel."
-                        },
-                        "ru": {
-                            "description": "Используется для преобразования и подготовки данных в Power BI и Excel."
-                        },
-                        "ja": {
-                            "description": "Power BIやExcelでのデータ変換と準備に使用されます。"
+                            "title": "Redis / MQTT",
+                            "description": "Caching & Message Queue"
                         }
                     }
                 }
@@ -250,113 +184,8 @@
             "id": 3,
             "component": "ArticleSkills",
             "locales": {
-                "en": { "title": "Tools & Frameworks" },
-                "pt": { "title": "Ferramentas e Frameworks" },
-                "ru": { "title": "Инструменты и Фреймворки" },
-                "ja": { "title": "ツールとフレームワーク" }
-            },
-            "settings": {
-                "order_items_by": "percentage",
-                "order_items_sort": "desc",
-                "max_items_per_line": 2,
-                "transparent_item_icon_background": true,
-                "small_icons": false
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "dateStart": { "year": 2020, "month": 1 },
-                    "fallbackFaIcon": "fa-solid fa-chart-pie",
-                    "percentage": 95,
-                    "locales": {
-                        "en": {
-                            "title": "Power BI",
-                            "description": "Expert in creating interactive dashboards, reports, and data visualizations using Power BI."
-                        },
-                        "pt": {
-                            "description": "Especialista em criar painéis interativos, relatórios e visualizações de dados usando Power BI."
-                        },
-                        "ru": {
-                            "description": "Эксперт в создании интерактивных панелей, отчетов и визуализаций данных с использованием Power BI."
-                        },
-                        "ja": {
-                            "description": "Power BIを使用してインタラクティブなダッシュボード、レポート、およびデータ可視化を作成する専門家。"
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "dateStart": { "year": 2019, "month": 6 },
-                    "fallbackFaIcon": "fa-solid fa-table",
-                    "percentage": 90,
-                    "locales": {
-                        "en": {
-                            "title": "Excel",
-                            "description": "Advanced Excel skills for data analysis, modeling, and visualization."
-                        },
-                        "pt": {
-                            "description": "Habilidades avançadas em Excel para análise de dados, modelagem e visualização."
-                        },
-                        "ru": {
-                            "description": "Продвинутые навыки Excel для анализа данных, моделирования и визуализации."
-                        },
-                        "ja": {
-                            "description": "データ分析、モデリング、および可視化のための高度なExcelスキル。"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "dateStart": { "year": 2021, "month": 5 },
-                    "fallbackFaIcon": "fa-solid fa-code-branch",
-                    "percentage": 80,
-                    "locales": {
-                        "en": {
-                            "title": "Git",
-                            "description": "Proficient in version control and collaboration using Git and GitHub."
-                        },
-                        "pt": {
-                            "description": "Proficiente em controle de versão e colaboração usando Git e GitHub."
-                        },
-                        "ru": {
-                            "description": "Умею работать с системами контроля версий и сотрудничать с помощью Git и GitHub."
-                        },
-                        "ja": {
-                            "description": "GitとGitHubを使用したバージョン管理とコラボレーションに熟練しています。"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "dateStart": { "year": 2022, "month": 3 },
-                    "fallbackFaIcon": "fa-solid fa-cloud",
-                    "percentage": 70,
-                    "locales": {
-                        "en": {
-                            "title": "Google Cloud Platform",
-                            "description": "Experience with GCP services for data storage, processing, and analytics."
-                        },
-                        "pt": {
-                            "description": "Experiência com serviços GCP para armazenamento, processamento e análise de dados."
-                        },
-                        "ru": {
-                            "description": "Опыт работы с сервисами GCP для хранения, обработки и аналитики данных."
-                        },
-                        "ja": {
-                            "description": "データの保存、処理、および分析のためのGCPサービスの経験。"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "component": "ArticleSkills",
-            "locales": {
-                "en": { "title": "Languages" },
-                "pt": { "title": "Idiomas" },
-                "ru": { "title": "Языки" },
-                "ja": { "title": "言語" }
+                "zh": { "title": "语言能力" },
+                "en": { "title": "Languages" }
             },
             "settings": {
                 "order_items_by": "id",
@@ -368,105 +197,49 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/flags/pt-br.png",
+                    "fallbackFaIcon": "fa-solid fa-language",
                     "locales": {
+                        "zh": {
+                            "title": "普通话",
+                            "description": "母语",
+                            "level": "母语"
+                        },
                         "en": {
-                            "title": "Brazilian Portuguese",
-                            "description": "Native Portuguese speaker with strong communication skills.",
+                            "title": "Chinese",
+                            "description": "Native",
                             "level": "Native"
-                        },
-                        "pt": {
-                            "title": "Português Brasileiro",
-                            "description": "Português nativo com ótimas habilidades de comunicação.",
-                            "level": "Nativo"
-                        },
-                        "ru": {
-                            "title": "Бразильский Португальский",
-                            "description": "Родной носитель португальского языка с хорошими коммуникативными навыками.",
-                            "level": "Родной"
-                        },
-                        "ja": {
-                            "title": "ブラジルポルトガル語",
-                            "description": "ポルトガル語のネイティブで、コミュ力に自信あり。",
-                            "level": "ネイティブ"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "img": "images/flags/en-uk.png",
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
                     "locales": {
+                        "zh": {
+                            "title": "英语 - CET-4",
+                            "description": "具备良好的英文读写能力",
+                            "level": "CET-4"
+                        },
                         "en": {
-                            "title": "English",
-                            "description": "Fluent in English for professional settings, solid communication skills.",
-                            "level": "Fluent"
-                        },
-                        "pt": {
-                            "title": "Inglês",
-                            "description": "Fluente em inglês para ambientes profissionais, com boas habilidades de comunicação.",
-                            "level": "Fluente"
-                        },
-                        "ru": {
-                            "title": "Английский",
-                            "description": "Свободно владею английским для профессиональной деятельности, хорошие навыки общения.",
-                            "level": "Свободно"
-                        },
-                        "ja": {
-                            "title": "英語",
-                            "description": "プロフェッショナルな環境での英語に流暢で、優れたコミュニケーションスキルを持っています。",
-                            "level": "流暢"
+                            "title": "English - CET-4",
+                            "description": "Good reading and writing skills",
+                            "level": "CET-4"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "img": "images/flags/ja.png",
+                    "fallbackFaIcon": "fa-solid fa-globe",
                     "locales": {
+                        "zh": {
+                            "title": "德语 - A1",
+                            "description": "入门级，正在学习中",
+                            "level": "A1"
+                        },
                         "en": {
-                            "title": "Japanese",
-                            "description": "I can hold simple conversations in Japanese, currently learning.",
-                            "level": "Intermediate"
-                        },
-                        "pt": {
-                            "title": "Japonês",
-                            "description": "Consigo ter conversas simples em japonês, atualmente aprendendo.",
-                            "level": "Intermediário"
-                        },
-                        "ru": {
-                            "title": "Японский",
-                            "description": "Владею разговорным японским, в процессе изучения.",
-                            "level": "Средний"
-                        },
-                        "ja": {
-                            "title": "日本語",
-                            "description": "簡単な会話ができる日本語を学んでいます。",
-                            "level": "中級"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "img": "images/flags/ru.png",
-                    "locales": {
-                        "en": {
-                            "title": "Russian",
-                            "description": "Good notions of basic Russian for communication.",
-                            "level": "Beginner"
-                        },
-                        "pt": {
-                            "title": "Russo",
-                            "description": "Noções básicas de russo para comunicação corriqueira.",
-                            "level": "Iniciante"
-                        },
-                        "ru": {
-                            "title": "Русский",
-                            "description": "Хорошие основы базового русского для общения.",
-                            "level": "Начальный"
-                        },
-                        "ja": {
-                            "title": "ロシア語",
-                            "description": "コミュニケーションのための基本的なロシア語の知識があります。",
-                            "level": "初級"
+                            "title": "German - A1",
+                            "description": "Beginner level, currently learning",
+                            "level": "A1"
                         }
                     }
                 }

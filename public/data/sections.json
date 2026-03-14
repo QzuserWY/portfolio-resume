@@ -7,25 +7,15 @@
             "faIcon": "fa-regular fa-address-card",
             "type": "centered",
             "locales": {
+                "zh": {
+                    "title": "关于我",
+                    "title_short": "关于",
+                    "nav_label": "关于"
+                },
                 "en": {
                     "title": "A tiny bit *about me...*",
                     "title_short": "About Me",
                     "nav_label": "About"
-                },
-                "pt": {
-                    "title": "Um pouco *sobre mim...*",
-                    "title_short": "Sobre Mim",
-                    "nav_label": "Sobre"
-                },
-                "ru": {
-                    "title": "Немного *обо мне...*",
-                    "title_short": "Обо мне",
-                    "nav_label": "О нас"
-                },
-                "ja": {
-                    "title": "私についての*少し...*",
-                    "title_short": "私について",
-                    "nav_label": "概要"
                 }
             }
         },
@@ -37,29 +27,17 @@
             "faIcon": "pi pi-briefcase",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "工作经历",
+                    "title_short": null,
+                    "description": "我的职业历程",
+                    "nav_label": "经历"
+                },
                 "en": {
                     "title": "*Professional* Experience",
                     "title_short": null,
                     "description": "An overview of my professional journey.",
                     "nav_label": "Experience"
-                },
-                "pt": {
-                    "title": "*Experiência* Profissional",
-                    "title_short": null,
-                    "description": "Uma visão geral da minha jornada profissional.",
-                    "nav_label": "Experiência"
-                },
-                "ru": {
-                    "title": "*Профессиональный* опыт",
-                    "title_short": null,
-                    "description": "Краткий обзор моего профессионального пути.",
-                    "nav_label": "Опыт"
-                },
-                "ja": {
-                    "title": "*職業的な* 経験",
-                    "title_short": null,
-                    "description": "私の職業的な旅の簡単な概要。",
-                    "nav_label": "経験"
                 }
             }
         },
@@ -71,29 +49,17 @@
             "faIcon": "pi pi-graduation-cap",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "教育背景与学习历程",
+                    "title_short": null,
+                    "description": "我的学术背景与持续学习",
+                    "nav_label": "教育"
+                },
                 "en": {
                     "title": "*Education* Background",
                     "title_short": null,
                     "description": "A glimpse into my academic trajectory and accomplishments.",
                     "nav_label": "Education"
-                },
-                "pt": {
-                    "title": "*Formação* Acadêmica",
-                    "title_short": null,
-                    "description": "Um vislumbre da minha trajetória acadêmica e conquistas.",
-                    "nav_label": "Formação"
-                },
-                "ru": {
-                    "title": "Учёба и *квалификация*",
-                    "title_short": null,
-                    "description": "Краткий обзор моего академического пути и достижений.",
-                    "nav_label": "Образование"
-                },
-                "ja": {
-                    "title": "*学歴* と資格",
-                    "title_short": null,
-                    "description": "私の学術的な旅と成果の簡単な概要。",
-                    "nav_label": "教育"
                 }
             }
         },
@@ -105,29 +71,17 @@
             "faIcon": "pi pi-wrench",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "技能专长",
+                    "title_short": null,
+                    "description": "我的核心技能：",
+                    "nav_label": "技能"
+                },
                 "en": {
                     "title": "*Skill* Set",
                     "title_short": null,
                     "description": "Core soft skills that define my approach:",
                     "nav_label": "Skills"
-                },
-                "pt": {
-                    "title": "Minhas *Habilidades*",
-                    "title_short": null,
-                    "description": "Alguns soft skills que definem meu perfil profissional:",
-                    "nav_label": "Habilidades"
-                },
-                "ru": {
-                    "title": "Мои *навыки*",
-                    "title_short": null,
-                    "description": "Основные мягкие навыки, которые определяют мой подход:",
-                    "nav_label": "Навыки"
-                },
-                "ja": {
-                    "title": "私の*スキル*セット",
-                    "title_short": null,
-                    "description": "私のアプローチを定義するコアソフトスキル:",
-                    "nav_label": "スキル"
                 }
             }
         },
@@ -139,29 +93,17 @@
             "faIcon": "pi pi-folder-open",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "项目经验",
+                    "title_short": null,
+                    "description": "展示我的项目作品",
+                    "nav_label": "项目"
+                },
                 "en": {
                     "title": "*Freelance* Projects",
                     "title_short": null,
                     "description": "A showcase of my freelance work and contributions.",
                     "nav_label": "Projects"
-                },
-                "pt": {
-                    "title": "*Projetos* Freelance",
-                    "title_short": null,
-                    "description": "Uma lista dos meus projetos e contribuições por meio de trabalhos freelance.",
-                    "nav_label": "Projetos"
-                },
-                "ru": {
-                    "title": "*Фриланс* проекты",
-                    "title_short": null,
-                    "description": "Портфолио моих фриланс-проектов и вкладов.",
-                    "nav_label": "Проекты"
-                },
-                "ja": {
-                    "title": "*フリーランス* プロジェクト",
-                    "title_short": null,
-                    "description": "私のフリーランスの仕事と貢献のショーケース。",
-                    "nav_label": "プロジェクト"
                 }
             }
         },
@@ -173,29 +115,17 @@
             "faIcon": "pi pi-thumbs-up",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "个人优势",
+                    "title_short": "优势",
+                    "description": "我的核心竞争力",
+                    "nav_label": "优势"
+                },
                 "en": {
-                    "title": "Professional *References*",
-                    "title_short": "References",
-                    "description": "If you would like to know more about my work, please feel free to contact any of the references below.",
-                    "nav_label": "References"
-                },
-                "pt": {
-                    "title": "*Referências* Profissionais",
-                    "title_short": "Referências",
-                    "description": "Se você quiser saber mais sobre o meu trabalho, sinta-se à vontade para entrar em contato com qualquer uma das referências abaixo.",
-                    "nav_label": "Referências"
-                },
-                "ru": {
-                    "title": "*Проф.* рекомендации",
-                    "title_short": "Рекомендации",
-                    "description": "Если вы хотите узнать больше о моей работе, пожалуйста, свяжитесь с любым из указанных ниже контактов.",
-                    "nav_label": "Рекомендации"
-                },
-                "ja": {
-                    "title": "プロフェッショナルな*推薦*",
-                    "title_short": "推薦",
-                    "description": "私の仕事についてもっと知りたい場合は、以下のいずれかの推薦者にお気軽にお問い合わせください。",
-                    "nav_label": "推薦"
+                    "title": "Personal *Strengths*",
+                    "title_short": "Strengths",
+                    "description": "My core competitiveness",
+                    "nav_label": "Strengths"
                 }
             }
         },
@@ -207,29 +137,17 @@
             "faIcon": "fa-regular fa-heart",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "个人总结",
+                    "title_short": "爱好",
+                    "description": "我的业余爱好：",
+                    "nav_label": "爱好"
+                },
                 "en": {
                     "title": "*Hobbies* & Interests",
                     "title_short": "Hobbies",
                     "description": "This is how I usually spend my free time:",
                     "nav_label": "Hobbies"
-                },
-                "pt": {
-                    "title": "*Hobbies* e Interesses",
-                    "title_short": "Hobbies",
-                    "description": "É assim que costumo passar meu tempo livre:",
-                    "nav_label": "Hobbies"
-                },
-                "ru": {
-                    "title": "*Увлечения* и Интересы",
-                    "title_short": "Увлечения",
-                    "description": "Вот как я провожу свое свободное время:",
-                    "nav_label": "Увлечения"
-                },
-                "ja": {
-                    "title": "*趣味*と興味",
-                    "title_short": "趣味",
-                    "description": "私が自由時間を過ごす方法:",
-                    "nav_label": "趣味"
                 }
             }
         },
@@ -241,29 +159,17 @@
             "faIcon": "fa-regular fa-envelope",
             "type": "column",
             "locales": {
+                "zh": {
+                    "title": "联系我",
+                    "title_short": null,
+                    "description": "欢迎随时联系",
+                    "nav_label": "联系"
+                },
                 "en": {
                     "title": "Let's get *in touch*",
                     "title_short": null,
                     "description": "Feel free to reach out for any inquiries or collaborations.",
                     "nav_label": "Contact"
-                },
-                "pt": {
-                    "title": "Entre em *contato*",
-                    "title_short": null,
-                    "description": "Sinta-se à vontade para entrar em contato para qualquer dúvida ou colaboração.",
-                    "nav_label": "Contato"
-                },
-                "ru": {
-                    "title": "*Связаться* со мной",
-                    "title_short": null,
-                    "description": "Не стесняйтесь обращаться по любым вопросам или для сотрудничества.",
-                    "nav_label": "Контакты"
-                },
-                "ja": {
-                    "title": "連絡を*取りましょう*",
-                    "title_short": null,
-                    "description": "お問い合わせやコラボレーションについては、お気軽にご連絡ください。",
-                    "nav_label": "連絡先"
                 }
             }
         }

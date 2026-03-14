@@ -1,112 +1,64 @@
 {
-    "name": "Gabriel Becker",
+    "name": "王钰",
     "profilePictureUrl": "images/content/pfp.jpg",
 
     "locales": {
+        "zh": {
+            "name": "王钰",
+            "credits": "个人简历主页",
+            "role": "AI应用工程师"
+        },
         "en": {
-            "name": "Gabriel Becker",
-            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Data Analyst"
-        },
-        "pt": {
-            "name": "Gabriel Becker",
-            "credits": "Design por <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Analista de Dados"
-        },
-        "ru": {
-            "name": "Габриэль Беккер",
-            "credits": "Дизайн от <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Аналитик данных"
-        },
-        "ja": {
-            "name": "ガブリエル・ベッカー",
-            "credits": "<strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong> 作",
-            "role": "データアナリスト"
+            "name": "Wang Yu",
+            "credits": "Personal Resume Portfolio",
+            "role": "AI Application Engineer"
         }
     },
 
     "contactOptions": [
         {
-            "id": "address",
+            "id": "phone",
+            "value": "15719249378",
+            "valueShort": "15719249378",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:15719249378",
+            "copy": true
+        },
+        {
+            "id": "email",
+            "value": "herr_wan@163.com",
+            "valueShort": "herr_wan@163.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:herr_wan@163.com",
+            "copy": true
+        },
+        {
+            "id": "location",
             "faIcon": "pi pi-map-marker",
             "href": null,
             "locales": {
+                "zh": {
+                    "value": "陕西省西安市",
+                    "valueShort": "西安市"
+                },
                 "en": {
-                    "value": "4-12-3 Sakura Street, Tokyo 150-0002",
-                    "valueShort": "Shibuya – Tokyo"
-                },
-                "pt": {
-                    "valueShort": "Shibuya – Tóquio"
-                },
-                "ru": {
-                    "valueShort": "Сибуя – Токио"
-                },
-                "ja": {
-                    "valueShort": "渋谷 – 東京"
+                    "value": "Xi'an, Shaanxi, China",
+                    "valueShort": "Xi'an, Shaanxi"
                 }
             }
         },
-
         {
-            "id": "email",
-            "value": "gabe.becker@gmail.com",
-            "valueShort": "gabe.becker@gmail.com",
-            "faIcon": "fa-regular fa-envelope",
-            "href": "mailto:gabe.becker@gmail.com",
-            "copy": true
-        },
-
-        {
-            "id": "github",
-            "value": "@ryanbalieiro",
-            "valueShort": "@ryanbalieiro",
-            "faIcon": "fa-brands fa-github",
-            "href": "https://github.com/ryanbalieiro",
+            "id": "age",
+            "value": "26岁",
+            "valueShort": "26岁",
+            "faIcon": "fa-solid fa-user",
             "copy": false
         },
-
         {
-            "id": "linkedin",
-            "value": "Gabriel Becker",
-            "valueShort": "Gabriel Becker",
-            "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com/gabe-becker-dev",
-            "copy": false
-        },
-
-        {
-            "id": "phone",
-            "value": "+81 90-1234-5678",
-            "valueShort": "090-1234-5678",
-            "faIcon": "fa-brands fa-whatsapp",
-            "href": "tel:+819012345678",
-            "copy": true
-        },
-
-        {
-            "id": "x",
-            "value": "@gabebeckerdev",
-            "valueShort": "@gabebeckerdev",
-            "faIcon": "fa-brands fa-x-twitter",
-            "href": "https://x.com/gabebeckerdev",
-            "copy": false
-        },
-
-        {
-            "id": "discord",
-            "value": "gabebeckerdev",
-            "valueShort": "gabebeckerdev",
-            "faIcon": "fa-brands fa-discord",
-            "href": "https://discord.com/users/gabebeckerdev",
-            "copy": false
-        },
-
-        {
-            "id": "medium",
-            "value": "@gabebeckerdev",
-            "valueShort": "@gabebeckerdev",
-            "faIcon": "fa-brands fa-medium",
-            "href": "https://medium.com/gabebeckerdev",
+            "id": "cet4",
+            "value": "CET-4",
+            "valueShort": "CET-4",
+            "faIcon": "fa-solid fa-graduation-cap",
             "copy": false
         }
     ]

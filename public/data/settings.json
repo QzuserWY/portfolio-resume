@@ -3,28 +3,17 @@
     "navToggleEnabled": true,
     "supportedLanguages": [
         {
-            "name": "English",
-            "id": "en",
-            "flagUrl": "images/flags/en-uk.png",
+            "name": "中文",
+            "id": "zh",
+            "flagUrl": "images/flags/zh.png",
             "default": true
         },
         {
-            "id": "ja",
-            "name": "日本語",
-            "flagUrl": "images/flags/ja.png",
-            "default": false
-        },
-        {
-            "name": "Português",
-            "id": "pt",
-            "flagUrl": "images/flags/pt-br.png",
-            "default": false
-        },
-        {
-            "name": "Русский",
-            "id": "ru",
-            "flagUrl": "images/flags/ru.png",
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-uk.png",
             "default": false
         }
-    ]
+    ],
+    "defaultLanguage": "zh"
 }

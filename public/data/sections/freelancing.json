@@ -4,25 +4,15 @@
             "id": 1,
             "component": "ArticlePortfolio",
             "locales": {
+                "zh": {
+                    "category_all": "全部",
+                    "category_commercial": "工作项目",
+                    "category_open_source": "个人项目"
+                },
                 "en": {
                     "category_all": "All",
-                    "category_commercial": "Commercial",
-                    "category_open_source": "Open-Source"
-                },
-                "pt": {
-                    "category_all": "Todos",
-                    "category_commercial": "Comercial",
-                    "category_open_source": "Open-Source"
-                },
-                "ru": {
-                    "category_all": "Все",
-                    "category_commercial": "Коммерческие",
-                    "category_open_source": "Open-Source"
-                },
-                "ja": {
-                    "category_all": "すべて",
-                    "category_commercial": "商用",
-                    "category_open_source": "オープンソース"
+                    "category_commercial": "Work Projects",
+                    "category_open_source": "Personal Projects"
                 }
             },
             "settings": {
@@ -32,227 +22,136 @@
             "items": [
                 {
                     "id": 1,
-                    "category": "open_source",
-                    "img": "images/content/logo-power-bi-dashboard.png",
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-building",
                     "locales": {
+                        "zh": {
+                            "title": "住建厅行政审批项目",
+                            "description": "行政审批项目是为企业法人和个人提供资质新办、延续、换领、注销等服务的一体化系统。它涵盖企业端和个人端的上报、查询功能，以及管理端的审批功能，优化审批流程，提高办事效率。",
+                            "tags": ["SpringCloud", "人大金仓数据库", "微服务"]
+                        },
                         "en": {
-                            "title": "PowerBI Dashboard",
-                            "description": "Designed an interactive open-source Power BI dashboard for companies in the field of market intelligence. The dashboard provides real-time insights into market trends and consumer behavior, enabling data-driven decision-making.",
-                            "tags": ["power-bi", "dashboard", "market intelligence"]
-                        },
-                        "pt": {
-                            "description": "Desenvolvi um dashboard interativo open-source em Power BI para empresas de inteligência de mercado. O dashboard fornece insights em tempo real sobre tendências de mercado e comportamento do consumidor, permitindo decisões baseadas em dados.",
-                            "tags": ["power-bi", "dashboard", "inteligência de mercado"]
-                        },
-                        "ru": {
-                            "description": "Создал интерактивную open-source панель Power BI для компаний в области рыночной разведки. Панель предоставляет данные в реальном времени о рыночных тенденциях и поведении потребителей, позволяя принимать решения на основе данных.",
-                            "tags": ["power-bi", "панель", "рыночная разведка"]
-                        },
-                        "ja": {
-                            "description": "市場インテリジェンス分野の企業向けに、オープンソースのPower BIダッシュボードを設計しました。このダッシュボードは、市場動向と消費者行動に関するリアルタイムの洞察を提供し、データに基づいた意思決定を可能にします。",
-                            "tags": ["power-bi", "ダッシュボード", "市場インテリジェンス"]
+                            "title": "Housing Authority Approval System",
+                            "description": "An integrated system for enterprise and individual qualification applications.",
+                            "tags": ["SpringCloud", "Kingbase", "Microservices"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/ryanbalieiro/vue-resume-template", "stringKey": "view_on_github"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com", "stringKey": "view_on_npm"},
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 },
                 {
                     "id": 2,
                     "category": "commercial",
-                    "img": "images/content/logo-churn-forecast.png",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-flag",
                     "locales": {
+                        "zh": {
+                            "title": "西安市智慧党建系统",
+                            "description": "西安市智慧党建系统（一期）项目集成了紧急事件调度模块、数据管理与数据采集、VR党建活动中心视频展示等功能模块，有力发挥党员干部群众力量。",
+                            "tags": ["SpringCloud", "神舟通用数据库", "数据采集"]
+                        },
                         "en": {
-                            "title": "Churn Forecast",
-                            "description": "Built a machine learning model to predict customer churn for a subscription-based service. Integrated with Power BI to visualize retention risk across customer segments and lifecycle stages.",
-                            "tags": ["machine-learning", "churn", "power-bi", "data-science"]
-                        },
-                        "pt": {
-                            "description": "Desenvolvi um modelo de machine learning para prever churn de clientes em um serviço baseado em assinatura. Integrado com Power BI para visualizar o risco de retenção em segmentos e estágios do ciclo de vida do cliente.",
-                            "tags": ["machine-learning", "churn", "power-bi", "ciência de dados"]
-                        },
-                        "ru": {
-                            "description": "Создал модель машинного обучения для прогнозирования оттока клиентов в сервисе с подпиской. Интегрирована с Power BI для визуализации риска удержания по сегментам клиентов и этапам жизненного цикла.",
-                            "tags": ["машинное обучение", "отток", "power-bi", "наука о данных"]
-                        },
-                        "ja": {
-                            "description": "サブスクリプションベースのサービスで顧客の離脱を予測する機械学習モデルを構築しました。Power BIと統合して、顧客セグメントとライフサイクル段階ごとのリテンションリスクを可視化しました。",
-                            "tags": ["機械学習", "離脱予測", "power-bi", "データサイエンス"]
+                            "title": "Xi'an Smart Party Building System",
+                            "description": "Integrated emergency dispatch, data management, VR party building modules.",
+                            "tags": ["SpringCloud", "ShenZhou", "Data Collection"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"},
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 },
                 {
                     "id": 3,
-                    "category": "open_source",
-                    "img": "images/content/logo-data-hub.png",
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-leaf",
                     "locales": {
+                        "zh": {
+                            "title": "陕西省农业厅监测分析系统",
+                            "description": "陕西省农业厅检测分析系统是基于已有检测分析系统，开发的二期项目。是收集并分析陕西省畜牧业、种植业、农业机械、果业、渔业渔政、农业产业化等多个数据平台的资源共享交换平台。",
+                            "tags": ["SpringCloud", "人大金仓数据库", "数据分析"]
+                        },
                         "en": {
-                            "title": "DataHub",
-                            "description": "Developed an open-source ETL pipeline that collects, cleans, and stores public datasets on climate, economics, and population. Designed for transparency and accessibility by researchers and nonprofits.",
-                            "tags": ["etl", "open-data", "python", "pipeline"]
-                        },
-                        "pt": {
-                            "description": "Desenvolvi um pipeline ETL open-source que coleta, limpa e armazena conjuntos de dados públicos sobre clima, economia e população. Projetado para transparência e acessibilidade por pesquisadores e ONGs.",
-                            "tags": ["etl", "dados abertos", "python", "pipeline"]
-                        },
-                        "ru": {
-                            "description": "Разработал open-source ETL-пайплайн, который собирает, очищает и хранит общедоступные наборы данных по климату, экономике и населению. Предназначен для прозрачности и доступности для исследователей и НПО.",
-                            "tags": ["etl", "открытые данные", "python", "пайплайн"]
-                        },
-                        "ja": {
-                            "description": "気候、経済、人口に関する公開データセットを収集、クリーンアップ、保存するオープンソースのETLパイプラインを開発しました。研究者や非営利団体による透明性とアクセス可能性を考慮して設計されています。",
-                            "tags": ["etl", "オープンデータ", "python", "パイプライン"]
+                            "title": "Shaanxi Agriculture Department Monitoring System",
+                            "description": "A data exchange platform for agriculture and animal husbandry data.",
+                            "tags": ["SpringCloud", "Kingbase", "Data Analysis"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/ryanbalieiro/vue-resume-template", "stringKey": "view_on_github"},
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 },
                 {
                     "id": 4,
-                    "category": "open_source",
-                    "img": "images/content/logo-ilog.png",
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-industry",
                     "locales": {
+                        "zh": {
+                            "title": "榆林小保当煤矿公司线上平台",
+                            "description": "小保当线上平台是基于陕煤集团榆林小保当煤矿公司发展现状，集运营数据一览、合同起草管理、下矿值班管理、生产计划调度等众多功能为一体，设计的线上管理与数据展示平台。",
+                            "tags": ["SpringBoot", "JeecgBoot", "Redis", "MQTT", "Nifi"]
+                        },
                         "en": {
-                            "title": "iLog",
-                            "description": "Analyzed shipping routes and delivery times for a logistics firm. Provided recommendations that reduced fuel costs by 12% using geospatial data and clustering algorithms.",
-                            "tags": ["logistics", "optimization", "clustering", "geospatial"]
-                        },
-                        "pt": {
-                            "description": "Analisei rotas de envio e tempos de entrega para uma empresa de logística. Forneci recomendações que reduziram os custos de combustível em 12% usando dados geoespaciais e algoritmos de agrupamento.",
-                            "tags": ["logística", "otimização", "agrupamento", "geoespacial"]
-                        },
-                        "ru": {
-                            "description": "Анализировал маршруты доставки и время доставки для логистической компании. Предоставил рекомендации, которые снизили затраты на топливо на 12% с использованием геопространственных данных и алгоритмов кластеризации.",
-                            "tags": ["логистика", "оптимизация", "кластеризация", "геопространственные данные"]
-                        },
-                        "ja": {
-                            "description": "物流会社の配送ルートと配達時間を分析しました。地理空間データとクラスタリングアルゴリズムを使用して、燃料コストを12%削減するための推奨事項を提供しました。",
-                            "tags": ["物流", "最適化", "クラスタリング", "地理空間データ"]
+                            "title": "Xiaobaodang Coal Mine Online Platform",
+                            "description": "An online management and data display platform for coal mining operations.",
+                            "tags": ["SpringBoot", "JeecgBoot", "Redis", "MQTT", "Nifi"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/ryanbalieiro/vue-resume-template", "stringKey": "view_on_github"},
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 },
                 {
                     "id": 5,
-                    "category": "commercial",
-                    "img": "images/content/logo-kpi-dashboard.png",
+                    "category": "open_source",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-dragon",
                     "locales": {
+                        "zh": {
+                            "title": "暗黑地牢 Mod 排序工具",
+                            "description": "为游戏《暗黑地牢》开发的 Mod 排序辅助工具，帮助玩家管理和优化 Mod 加载顺序，提升游戏体验。",
+                            "tags": ["Python", "GUI", "游戏辅助"]
+                        },
                         "en": {
-                            "title": "KPIs Dashboard",
-                            "description": "Created a real-time dashboard for a manufacturing client to monitor production output, machine downtime, and quality rates. Used SQL and Power BI to streamline reporting and daily operations.",
-                            "tags": ["power-bi", "sql", "manufacturing", "kpi"]
-                        },
-                        "pt": {
-                            "description": "Criei um dashboard em tempo real para um cliente de manufatura monitorar produção, tempo de inatividade de máquinas e taxas de qualidade. Usei SQL e Power BI para agilizar relatórios e operações diárias.",
-                            "tags": ["power-bi", "sql", "manufatura", "kpi"]
-                        },
-                        "ru": {
-                            "description": "Создал панель мониторинга в реальном времени для клиента в производстве для отслеживания производительности, времени простоя машин и качества. Использовал SQL и Power BI для оптимизации отчетности и ежедневных операций.",
-                            "tags": ["power-bi", "sql", "производство", "kpi"]
-                        },
-                        "ja": {
-                            "description": "製造業のクライアント向けに、リアルタイムで生産出力、機械のダウンタイム、品質率を監視するダッシュボードを作成しました。SQLとPower BIを使用して、レポート作成と日常業務を効率化しました。",
-                            "tags": ["power-bi", "sql", "製造業", "KPI"]
+                            "title": "Darkest Dungeon Mod Sorter",
+                            "description": "A mod sorting tool for Darkest Dungeon to help players manage mod load order.",
+                            "tags": ["Python", "GUI", "Gaming"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"},
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 },
                 {
                     "id": 6,
-                    "category": "commercial",
-                    "img": "images/content/logo-sales-plus.png",
+                    "category": "open_source",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-gamepad",
                     "locales": {
+                        "zh": {
+                            "title": "边缘世界游戏模组开发",
+                            "description": "为《边缘世界》(RimWorld) 游戏开发的各种功能性模组，包括建筑优化、AI 行为改进、游戏平衡调整等。",
+                            "tags": ["C#", "Unity", "游戏模组"]
+                        },
                         "en": {
-                            "title": "SalesPlus",
-                            "description": "Automated weekly sales forecasting for a retail chain using Python and Prophet. The model helped regional managers allocate stock more efficiently and improve monthly revenue by 8%.",
-                            "tags": ["forecasting", "prophet", "retail", "python"]
-                        },
-                        "pt": {
-                            "description": "Automatizei a previsão de vendas semanal para uma rede de varejo usando Python e Prophet. O modelo ajudou gerentes regionais a alocar estoque de forma mais eficiente e melhorar a receita mensal em 8%.",
-                            "tags": ["previsão", "prophet", "varejo", "python"]
-                        },
-                        "ru": {
-                            "description": "Автоматизировал еженедельное прогнозирование продаж для розничной сети с использованием Python и Prophet. Модель помогла региональным менеджерам более эффективно распределять запасы и увеличить ежемесячную выручку на 8%.",
-                            "tags": ["прогнозирование", "prophet", "розничная торговля", "python"]
-                        },
-                        "ja": {
-                            "description": "小売チェーンの週次売上予測をPythonとProphetを使用して自動化しました。このモデルにより、地域マネージャーは在庫をより効率的に配分し、月間収益を8%向上させました。",
-                            "tags": ["予測", "Prophet", "小売", "python"]
+                            "title": "RimWorld Mod Development",
+                            "description": "Various functional mods for RimWorld including building optimization and AI behavior improvements.",
+                            "tags": ["C#", "Unity", "Game Mod"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 },
                 {
                     "id": 7,
                     "category": "open_source",
-                    "img": "images/content/logo-ab-lib.png",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-book-open",
                     "locales": {
+                        "zh": {
+                            "title": "漫画刮削工具",
+                            "description": "开发的漫画资源整理工具，支持从多个来源自动刮削漫画信息，整理本地漫画库。",
+                            "tags": ["Python", "爬虫", "GUI"]
+                        },
                         "en": {
-                            "title": "A/B Lib+",
-                            "description": "Contributed to an open-source A/B testing Python library, adding statistical features and building documentation for marketing analysts and data scientists.",
-                            "tags": ["a/b-testing", "open-source", "python", "experimentation"]
-                        },
-                        "pt": {
-                            "description": "Contribuí para uma biblioteca open-source de testes A/B em Python, adicionando recursos estatísticos e construindo documentação para analistas de marketing e cientistas de dados.",
-                            "tags": ["teste a/b", "open-source", "python", "experimentação"]
-                        },
-                        "ru": {
-                            "description": "Внес вклад в open-source библиотеку A/B тестирования на Python, добавив статистические функции и создав документацию для маркетологов и специалистов по данным.",
-                            "tags": ["a/b-тестирование", "open-source", "python", "эксперименты"]
-                        },
-                        "ja": {
-                            "description": "オープンソースのA/BテストPythonライブラリに貢献し、マーケティングアナリストとデータサイエンティスト向けに統計機能を追加し、ドキュメントを構築しました。",
-                            "tags": ["A/Bテスト", "オープンソース", "python", "実験"]
+                            "title": "Comic Scraper Tool",
+                            "description": "A comic resource organization tool that automatically scrapes comic info from multiple sources.",
+                            "tags": ["Python", "Scraper", "GUI"]
                         }
                     },
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com/ryanbalieiro/vue-resume-template", "stringKey": "view_on_github"}
-                    ]
-                },
-                {
-                    "id": 8,
-                    "category": "commercial",
-                    "img": "images/content/logo-smart-risk.png",
-                    "locales": {
-                        "en": {
-                            "title": "SmartRisk 2.0",
-                            "description": "Built an internal tool to assess loan application risk using historical data and credit scores. Improved accuracy of loan approvals and reduced default rates by 15%.",
-                            "tags": ["finance", "risk-scoring", "data-analysis", "credit"]
-                        },
-                        "pt": {
-                            "description": "Desenvolvi uma ferramenta interna para avaliar o risco de aplicações de crédito usando dados históricos e pontuações de crédito. Melhorou a precisão das aprovações de crédito e reduziu as taxas de inadimplência em 15%.",
-                            "tags": ["finanças", "avaliação de risco", "análise de dados", "crédito"]
-                        },
-                        "ru": {
-                            "description": "Создал внутренний инструмент для оценки риска заявок на кредит с использованием исторических данных и кредитных рейтингов. Улучшил точность одобрения кредитов и снизил уровень дефолта на 15%.",
-                            "tags": ["финансы", "оценка риска", "анализ данных", "кредит"]
-                        },
-                        "ja": {
-                            "description": "過去のデータとクレジットスコアを使用してローン申請のリスクを評価する内部ツールを構築しました。ローン承認の精度を向上させ、デフォルト率を15%削減しました。",
-                            "tags": ["金融", "リスク評価", "データ分析", "クレジット"]
-                        }
-                    },
-                    "links": [
-                        {"faIcon": "fa-solid fa-globe", "href": "https://ryanbalieiro.com", "stringKey": "view_website"}
-                    ]
+                    "links": []
                 }
             ]
         }

@@ -4,41 +4,62 @@
             "id": 1,
             "component": "ArticleProfile",
             "settings": {
-                "contact_list_ids": ["address", "email", "discord"],
-                "contact_circles_ids": ["github", "linkedin", "medium", "x"]
+                "contact_list_ids": ["phone", "email", "location"],
+                "contact_circles_ids": ["age", "cet4"]
             },
             "items": [
                 {
                     "id": 1,
                     "locales": {
+                        "zh": {
+                            "description": "我是一名具有 <strong>4年+</strong> 工作经验的 <strong>AI应用工程师</strong>，擅长使用 Cursor、OpenClaw 等主流 AI 编程工具，将 AI 能力融入软件开发全过程，实现需求调研、开发、部署、文档编写一体化工作流程。"
+                        },
                         "en": {
-                            "description": "I’ve been working as a <strong>data analyst</strong> for <strong>8 years</strong>, turning raw numbers into clear, actionable insights that help teams make smarter, faster decisions. I specialize in transforming complex data into meaningful stories through intuitive dashboards, reports, and visualizations."
-                        },
-                        "pt": {
-                            "description": "Trabalho como <strong>analista de dados</strong> há <strong>8 anos</strong>, transformando números brutos em insights claros e acionáveis que ajudam as equipes a tomar decisões mais inteligentes e rápidas. Especializo-me em transformar dados complexos em histórias significativas por meio de painéis intuitivos, relatórios e visualizações."
-                        },
-                        "ru": {
-                            "description": "Я работаю в качестве <strong>аналитика данных</strong> уже <strong>8 лет</strong>, превращая сырые данные в четкие, практические инсайты, которые помогают командам принимать более умные и быстрые решения. Я специализируюсь на преобразовании сложных данных в значимые истории с помощью интуитивно понятных панелей управления, отчетов и визуализаций."
-                        },
-                        "ja": {
-                            "description": "私は<strong>データアナリスト</strong>として<strong>8年間</strong>働いており、生の数字を明確で実用的な洞察に変え、チームがより賢く迅速な意思決定を行うのを支援しています。複雑なデータを直感的なダッシュボード、レポート、ビジュアライゼーションを通じて意味のあるストーリーに変えることを専門としています。"
+                            "description": "I am an <strong>AI Application Engineer</strong> with <strong>4+ years</strong> of experience, proficient in using mainstream AI coding tools like Cursor and OpenClaw."
                         }
                     }
                 },
                 {
                     "id": 2,
                     "locales": {
+                        "zh": {
+                            "description": "我坚信 <strong>兴趣是最好的老师</strong>。从大学接触编程开始，就对软件开发产生了浓厚的兴趣。正是这份热爱驱使我不断学习新技术，探索 AI 辅助开发的无限可能。"
+                        },
                         "en": {
-                            "description": "To me, great analysis is more than just crunching numbers—it’s about understanding people, asking the right questions, and guiding strategy with confidence. Let’s collaborate to uncover insights that move your projects forward with clarity and purpose!"
+                            "description": "I believe <strong>interest is the best teacher</strong>. Since starting programming in university, I have been deeply interested in software development."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "locales": {
+                        "zh": {
+                            "description": "我坚信 AI 是新时代开发者的必备技能。善于利用 AI 工具提升开发效率，缩短项目周期，降低沟通成本。同时具备扎实的 Java 技术功底，精通 SpringBoot、SpringCloud 等主流框架。"
                         },
-                        "pt": {
-                            "description": "Para mim, uma ótima análise é mais do que apenas processar números—trata-se de entender as pessoas, fazer as perguntas certas e orientar a estratégia com confiança. Vamos colaborar para descobrir insights que impulsionem seus projetos com clareza e propósito!"
+                        "en": {
+                            "description": "I believe AI is an essential skill for developers in the new era. Good at using AI tools to improve development efficiency."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "locales": {
+                        "zh": {
+                            "description": "工作之外，我是资深的独立游戏爱好者，热爱折腾各类游戏 Mod 开发。我享受在代码世界中创造乐趣的过程，这也让我对编程保持持续的热情。"
                         },
-                        "ru": {
-                            "description": "Для меня отличная аналитика — это не просто обработка чисел, это понимание людей, задавание правильных вопросов и уверенное руководство стратегией. Давайте сотрудничать, чтобы раскрыть инсайты, которые продвигают ваши проекты вперед с ясностью и целью!"
+                        "en": {
+                            "description": "Outside of work, I am an avid indie game enthusiast who loves creating game mods. This keeps my passion for programming alive."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "locales": {
+                        "zh": {
+                            "description": "<strong>期待与您合作，共同探索 AI 赋能软件开发的可能性！</strong>"
                         },
-                        "ja": {
-                            "description": "私にとって、優れた分析は単なる数字の処理以上のものです。それは人々を理解し、適切な質問をし、自信を持って戦略を導くことです。明確さと目的を持ってプロジェクトを前進させる洞察を一緒に発見しましょう！"
+                        "en": {
+                            "description": "<strong>Looking forward to collaborating with you to explore AI-powered software development!</strong>"
                         }
                     }
                 }

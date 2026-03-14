@@ -10,297 +10,89 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": { "year": 2017, "month": 3 },
-                    "dateEnd": { "year": 2019, "month": 5 },
-                    "img": "images/content/logo-nubank.png",
-                    "fallbackFaIcon": "",
-                    "fallbackFaIconColor": "",
+                    "dateStart": { "year": 2022, "month": 2 },
+                    "dateEnd": { "string": "now" },
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": "#722ed1",
                     "locales": {
+                        "zh": {
+                            "title": "AI应用工程师",
+                            "description": "新时代软件开发，集成 AI 辅助能力，集需求调研、开发、部署、文档编写于一体。",
+                            "list": {
+                                "title": "工作内容：",
+                                "items": [
+                                    "AI 辅助开发：使用 Cursor、OpenClaw 提升效率",
+                                    "需求与设计：参与需求调研、数据库设计",
+                                    "开发与实现：接口编写、功能研发",
+                                    "汇报与培训：系统演示、用户培训",
+                                    "部署与维护：服务部署、文档编写"
+                                ]
+                            },
+                            "province": "西安市",
+                            "country": "中国",
+                            "institution": "陕西北斗恒星科技发展有限公司",
+                            "tags": ["AI应用", "Java", "SpringBoot", "Cursor", "OpenClaw"]
+                        },
                         "en": {
-                            "title": "Junior Data Analyst",
-                            "description": "Worked on <strong>customer behavior analytics</strong>, operational dashboards, and data quality improvements for one of the largest digital banks in Latin America. Collaborated with cross-functional teams to support data-driven decisions through clear and actionable insights.",
+                            "title": "AI Application Engineer",
+                            "description": "Modern software development with AI-assisted capabilities, integrating requirements, development, deployment, and documentation.",
                             "list": {
-                                "title": "Key contributions:",
+                                "title": "Responsibilities:",
                                 "items": [
-                                    "Built <strong>interactive dashboards</strong> using SQL, Looker, and Python for customer segmentation analysis.",
-                                    "<strong>Automated</strong> weekly reporting workflows, reducing manual processing time by over 60%.",
-                                    "Supported marketing and product teams with <strong>exploratory data analysis</strong> (EDA) for new feature launches."
+                                    "AI-assisted development using Cursor and OpenClaw",
+                                    "Requirements and database design",
+                                    "Development and implementation",
+                                    "Demonstrations and user training",
+                                    "Deployment and documentation"
                                 ]
                             },
-                            "province": "São Paulo",
-                            "country": "Brazil",
-                            "institution": "Nubank Inc.",
-                            "tags": ["data analysis", "SQL", "Looker", "Python"]
-                        },
-                        "pt": {
-                            "title": "Analista de Dados Júnior",
-                            "description": "Trabalhei com <strong>análise de comportamento do cliente</strong>, painéis operacionais e melhorias na qualidade dos dados para um dos maiores bancos digitais da América Latina. Colaborei com equipes multifuncionais para apoiar decisões baseadas em dados por meio de insights claros e acionáveis.",
-                            "list": {
-                                "title": "Contribuições principais:",
-                                "items": [
-                                    "Criei <strong>painéis interativos</strong> usando SQL, Looker e Python para análise de segmentação de clientes.",
-                                    "<strong>Automatizei</strong> fluxos de relatórios semanais, reduzindo o tempo de processamento manual em mais de 60%.",
-                                    "Apoiei as equipes de marketing e produto com <strong>análise exploratória de dados</strong> (EDA) para lançamentos de novas funcionalidades."
-                                ]
-                            },
-                            "province": "São Paulo",
-                            "country": "Brasil",
-                            "institution": "Nubank Inc.",
-                            "tags": ["análise de dados", "SQL", "Looker", "Python"]
-                        },
-                        "ru": {
-                            "title": "Младший аналитик данных",
-                            "description": "Работал над <strong>анализом поведения клиентов</strong>, операционными панелями и улучшением качества данных для одного из крупнейших цифровых банков в Латинской Америке. Сотрудничал с межфункциональными командами для поддержки принятия решений на основе данных через четкие и действенные инсайты.",
-                            "list": {
-                                "title": "Ключевые достижения:",
-                                "items": [
-                                    "Создал <strong>интерактивные панели</strong> с использованием SQL, Looker и Python для анализа сегментации клиентов.",
-                                    "<strong>Автоматизировал</strong> еженедельные рабочие процессы отчетности, сократив время ручной обработки более чем на 60%.",
-                                    "Поддерживал команды маркетинга и продукта с помощью <strong>исследовательского анализа данных</strong> (EDA) для запуска новых функций."
-                                ]
-                            },
-                            "province": "Сан-Паулу",
-                            "country": "Бразилия",
-                            "institution": "Nubank Inc.",
-                            "tags": ["анализ данных", "SQL", "Looker", "Python"]
-                        },
-                        "ja": {
-                            "title": "ジュニアデータアナリスト",
-                            "description": "ラテンアメリカ最大のデジタルバンクの一つで、<strong>顧客行動分析</strong>、運用ダッシュボード、データ品質改善に取り組みました。クロスファンクショナルチームと協力し、明確で実行可能なインサイトを通じてデータ駆動型の意思決定をサポートしました。",
-                            "list": {
-                                "title": "主な貢献:",
-                                "items": [
-                                    "<strong>インタラクティブダッシュボード</strong>をSQL、Looker、Pythonを使用して構築し、顧客セグメンテーション分析を行いました。",
-                                    "<strong>週次レポートワークフローを自動化</strong>し、手動処理時間を60%以上削減しました。",
-                                    "新機能のローンチに向けて、マーケティングおよびプロダクトチームを<strong>探索的データ分析</strong>（EDA）でサポートしました。"
-                                ]
-                            },
-                            "province": "サンパウロ",
-                            "country": "ブラジル",
-                            "institution": "Nubank Inc.",
-                            "tags": ["データ分析", "SQL", "Looker", "Python"]
+                            "province": "Xi'an",
+                            "country": "China",
+                            "institution": "Shaanxi Beidou Star Technology Development Co., Ltd.",
+                            "tags": ["AI Application", "Java", "SpringBoot", "Cursor", "OpenClaw"]
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "dateStart": { "year": 2019, "month": 11 },
-                    "dateEnd": { "year": 2021, "month": 6 },
+                    "dateStart": { "year": 2020, "month": 9 },
+                    "dateEnd": { "year": 2022, "month": 2 },
                     "img": "",
-                    "fallbackFaIcon": "fa-brands fa-vk",
-                    "fallbackFaIconColor": "#122238",
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#52c41a",
                     "locales": {
+                        "zh": {
+                            "title": "Java 开发工程师",
+                            "description": "根据客户需求，参与软件设计、开发、上线过程。",
+                            "list": {
+                                "title": "工作内容：",
+                                "items": [
+                                    "参与软件设计与开发",
+                                    "按时完成模块开发任务",
+                                    "编写技术文档"
+                                ]
+                            },
+                            "province": "西安市",
+                            "country": "中国",
+                            "institution": "同路科技有限公司",
+                            "tags": ["Java", "SpringBoot"]
+                        },
                         "en": {
-                            "title": "Data Analyst (Product Analytics)",
-                            "description": "Contributed to VK’s product analytics team, helping optimize user experiences across one of Russia’s most widely used social platforms. Worked with <strong>large-scale datasets</strong> to uncover insights and support cross-team decision-making.",
+                            "title": "Java Developer",
+                            "description": "Participated in software design, development, and deployment based on client requirements.",
                             "list": {
-                                "title": "Key projects:",
+                                "title": "Responsibilities:",
                                 "items": [
-                                    "Performed <strong>cohort analyses</strong> to guide improvements in news feed algorithms.",
-                                    "Partnered with data engineers to streamline <strong>event tracking</strong> and reduce reporting latency.",
-                                    "<strong>Designed dashboards</strong> for monitoring daily active users and engagement KPIs."
+                                    "Software design and development",
+                                    "Module development",
+                                    "Technical documentation"
                                 ]
                             },
-                            "province": "",
-                            "country": "Remote",
-                            "institution": "VKontakte LLC",
-                            "tags": ["data analysis", "SQL", "Python", "product analytics"]
-                        },
-                        "pt": {
-                            "title": "Analista de Dados (Análise de Produto)",
-                            "description": "Contribuí para a equipe de análise de produto do VK, ajudando a otimizar as experiências dos usuários em uma das plataformas sociais mais utilizadas da Rússia. Trabalhei com <strong>conjuntos de dados em larga escala</strong> para descobrir insights e apoiar a tomada de decisões entre equipes.",
-                            "list": {
-                                "title": "Projetos principais:",
-                                "items": [
-                                    "Realizei <strong>análises de coorte</strong> para orientar melhorias nos algoritmos do feed de notícias.",
-                                    "Colaborei com engenheiros de dados para agilizar o <strong>rastreamento de eventos</strong> e reduzir a latência dos relatórios.",
-                                    "<strong>Desenhei painéis</strong> para monitorar usuários ativos diários e KPIs de engajamento."
-                                ]
-                            },
-                            "province": "",
-                            "country": "Remoto",
-                            "institution": "VKontakte LLC",
-                            "tags": ["análise de dados", "SQL", "Python", "análise de produto"]
-                        },
-                        "ru": {
-                            "title": "Аналитик данных (Анализ продукта)",
-                            "description": "Внес вклад в команду продуктовой аналитики VK, помогая оптимизировать пользовательский опыт на одной из самых популярных социальных платформ России. Работал с <strong>масштабными наборами данных</strong>, чтобы выявлять инсайты и поддерживать принятие решений между командами.",
-                            "list": {
-                                "title": "Ключевые проекты:",
-                                "items": [
-                                    "Проводил <strong>когортный анализ</strong> для улучшения алгоритмов новостной ленты.",
-                                    "Сотрудничал с инженерами данных для оптимизации <strong>отслеживания событий</strong> и сокращения задержки отчетности.",
-                                    "<strong>Разрабатывал панели мониторинга</strong> для отслеживания ежедневных активных пользователей и показателей вовлеченности."
-                                ]
-                            },
-                            "province": "",
-                            "country": "Удаленно",
-                            "institution": "VKontakte LLC",
-                            "tags": ["анализ данных", "SQL", "Python", "продуктовая аналитика"]
-                        },
-                        "ja": {
-                            "title": "データアナリスト（プロダクトアナリティクス）",
-                            "description": "ロシアで最も広く使用されているソーシャルプラットフォームの一つであるVKのプロダクトアナリティクスチームに貢献し、ユーザーエクスペリエンスの最適化を支援しました。<strong>大規模データセット</strong>を使用してインサイトを発見し、チーム間の意思決定をサポートしました。",
-                            "list": {
-                                "title": "主なプロジェクト:",
-                                "items": [
-                                    "<strong>コホート分析</strong>を実施し、ニュースフィードアルゴリズムの改善を導きました。",
-                                    "データエンジニアと連携して、<strong>イベントトラッキング</strong>を効率化し、レポートの遅延を削減しました。",
-                                    "<strong>ダッシュボードを設計</strong>し、日次アクティブユーザーとエンゲージメントKPIを監視しました。"
-                                ]
-                            },
-                            "province": "",
-                            "country": "リモート",
-                            "institution": "VKontakte LLC",
-                            "tags": ["データ分析", "SQL", "Python", "プロダクトアナリティクス"]
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "dateStart": { "year": 2022, "month": 2 },
-                    "dateEnd": { "year": 2025, "month": 4 },
-                    "img": "",
-                    "fallbackFaIcon": "fa-brands fa-sith",
-                    "fallbackFaIconColor": "#122238",
-                    "locales": {
-                        "en": {
-                            "title": "User Insights Analyst",
-                            "description": "Worked at a fast-paced mobile app studio focused on lifestyle and productivity tools for the Japanese market. Played a key role in <strong>leveraging user data</strong> to guide feature development and app performance optimization.",
-                            "list": {
-                                "title": "Key initiatives:",
-                                "items": [
-                                    "Conducted <strong>retention and churn analysis</strong> across multiple iOS and Android apps with over 1M downloads.",
-                                    "Collaborated with UX designers to <strong>interpret heatmaps</strong> and usage flows for improving onboarding funnels.",
-                                    "Developed <strong>automated dashboards</strong> in BigQuery and Data Studio for real-time monitoring of app performance."
-                                ]
-                            },
-                            "province": "Kyoto",
-                            "country": "Japan",
-                            "institution": "Hikari Labs Inc.",
-                            "tags": ["data analysis", "BigQuery", "Data Studio", "user insights", "mobile apps"]
-                        },
-                        "pt": {
-                            "title": "Analista de Insights do Usuário",
-                            "description": "Trabalhei em um estúdio de aplicativos móveis dinâmico focado em ferramentas de estilo de vida e produtividade para o mercado japonês. Desempenhei um papel fundamental em <strong>aproveitar os dados dos usuários</strong> para orientar o desenvolvimento de recursos e a otimização do desempenho do aplicativo.",
-                            "list": {
-                                "title": "Iniciativas principais:",
-                                "items": [
-                                    "Realizei <strong>análise de retenção e churn</strong> em vários aplicativos iOS e Android com mais de 1 milhão de downloads.",
-                                    "Colaborei com designers UX para <strong>interpretar mapas de calor</strong> e fluxos de uso para melhorar os funis de integração.",
-                                    "Desenvolvi <strong>painéis automatizados</strong> no BigQuery e Data Studio para monitoramento em tempo real do desempenho do aplicativo."
-                                ]
-                            },
-                            "province": "Quioto",
-                            "country": "Japão",
-                            "institution": "Hikari Labs Inc.",
-                            "tags": ["análise de dados", "BigQuery", "Data Studio", "insights do usuário", "aplicativos móveis"]
-                        },
-                        "ru": {
-                            "title": "Аналитик пользовательских инсайтов",
-                            "description": "Работал в динамичной студии мобильных приложений, сосредоточенной на инструментах для стиля жизни и продуктивности на японском рынке. Играл ключевую роль в <strong>использовании данных пользователей</strong> для руководства разработкой функций и оптимизацией производительности приложений.",
-                            "list": {
-                                "title": "Ключевые инициативы:",
-                                "items": [
-                                    "Проводил <strong>анализ удержания и оттока</strong> в нескольких приложениях iOS и Android с более чем 1 миллионом загрузок.",
-                                    "Сотрудничал с UX-дизайнерами для <strong>интерпретации тепловых карт</strong> и потоков использования для улучшения воронок онбординга.",
-                                    "Разработал <strong>автоматизированные панели мониторинга</strong> в BigQuery и Data Studio для реального времени мониторинга производительности приложений."
-                                ]
-                            },
-                            "province": "Киото",
-                            "country": "Япония",
-                            "institution": "Hikari Labs Inc.",
-                            "tags": ["анализ данных", "BigQuery", "Data Studio", "пользовательские инсайты", "мобильные приложения"]
-                        },
-                        "ja": {
-                            "title": "ユーザーインサイトアナリスト",
-                            "description": "日本市場向けのライフスタイルおよび生産性ツールに特化した高速モバイルアプリスタジオで働きました。<strong>ユーザーデータを活用</strong>して機能開発とアプリパフォーマンスの最適化を導く重要な役割を果たしました。",
-                            "list": {
-                                "title": "主なイニシアチブ:",
-                                "items": [
-                                    "<strong>リテンションとチャーン分析</strong>を1Mダウンロードを超える複数のiOSおよびAndroidアプリで実施しました。",
-                                    "UXデザイナーと協力して、オンボーディングファネルの改善のために<strong>ヒートマップ</strong>と使用フローを解釈しました。",
-                                    "<strong>自動化されたダッシュボード</strong>をBigQueryとData Studioで開発し、アプリパフォーマンスのリアルタイム監視を行いました。"
-                                ]
-                            },
-                            "province": "京都",
-                            "country": "日本",
-                            "institution": "Hikari Labs Inc.",
-                            "tags": ["データ分析", "BigQuery", "Data Studio", "ユーザーインサイト", "モバイルアプリ"]
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "dateStart": { "year": 2025, "month": 6 },
-                    "dateEnd": { "string": "now" },
-                    "img": "images/content/logo-konami.png",
-                    "fallbackFaIcon": "",
-                    "fallbackFaIconColor": "",
-                    "locales": {
-                        "en": {
-                            "title": "Senior Data Analyst",
-                            "description": "Joined the analytics team behind one of the world’s most beloved entertainment brands. Focused on <strong>player behavior</strong>, in-game event performance, and <strong>business metrics</strong> to support game design, marketing, and digital platform strategy.",
-                            "list": {
-                                "title": "Highlights:",
-                                "items": [
-                                    "Analyzed gameplay data across multiple franchises to <strong>identify patterns</strong> in player progression and retention.",
-                                    "Provided insights to <strong>optimize in-game events</strong> and seasonal content rollout, directly influencing player engagement.",
-                                    "Collaborated with product and monetization teams to <strong>evaluate the impact of new features</strong> and digital storefront changes."
-                                ]
-                            },
-                            "province": "Tokyo",
-                            "country": "Japan",
-                            "institution": "Konami Digital Entertainment",
-                            "tags": ["data analysis", "game analytics", "SQL", "Python", "business metrics"]
-                        },
-                        "pt": {
-                            "title": "Analista de Dados Sênior",
-                            "description": "Entrei para a equipe de análise por trás de uma das marcas de entretenimento mais queridas do mundo. Focado em <strong>comportamento dos jogadores</strong>, desempenho de eventos no jogo e <strong>métricas de negócios</strong> para apoiar design de jogos, marketing e estratégia de plataformas digitais.",
-                            "list": {
-                                "title": "Destaques:",
-                                "items": [
-                                    "Analisei dados de jogabilidade em várias franquias para <strong>identificar padrões</strong> na progressão e retenção dos jogadores.",
-                                    "Forneci insights para <strong>otimizar eventos no jogo</strong> e o lançamento de conteúdo sazonal, influenciando diretamente o engajamento dos jogadores.",
-                                    "Colaborei com equipes de produto e monetização para <strong>avaliar o impacto de novos recursos</strong> e mudanças na loja digital."
-                                ]
-                            },
-                            "province": "Tóquio",
-                            "country": "Japão",
-                            "institution": "Konami Digital Entertainment",
-                            "tags": ["análise de dados", "análise de jogos", "SQL", "Python", "métricas de negócios"]
-                        },
-                        "ru": {
-                            "title": "Старший аналитик данных",
-                            "description": "Присоединился к команде аналитики, стоящей за одним из самых любимых брендов развлечений в мире. Сосредоточился на <strong>поведении игроков</strong>, производительности игровых событий и <strong>бизнес-метриках</strong> для поддержки дизайна игр, маркетинга и стратегии цифровых платформ.",
-                            "list": {
-                                "title": "Основные моменты:",
-                                "items": [
-                                    "Анализировал данные игрового процесса по нескольким франшизам, чтобы <strong>выявить закономерности</strong> в прогрессе и удержании игроков.",
-                                    "Предоставлял инсайты для <strong>оптимизации игровых событий</strong> и сезонного контента, напрямую влияя на вовлеченность игроков.",
-                                    "Сотрудничал с командами продукта и монетизации для <strong>оценки влияния новых функций</strong> и изменений в цифровом магазине."
-                                ]
-                            },
-                            "province": "Токио",
-                            "country": "Япония",
-                            "institution": "Konami Digital Entertainment",
-                            "tags": ["анализ данных", "игровая аналитика", "SQL", "Python", "бизнес-метрики"]
-                        },
-                        "ja": {
-                            "title": "シニアデータアナリスト",
-                            "description": "世界で最も愛されているエンターテインメントブランドの分析チームに参加しました。<strong>プレイヤー行動</strong>、ゲーム内イベントのパフォーマンス、<strong>ビジネスメトリクス</strong>に焦点を当て、ゲームデザイン、マーケティング、デジタルプラットフォーム戦略をサポートしました。",
-                            "list": {
-                                "title": "ハイライト:",
-                                "items": [
-                                    "複数のフランチャイズにわたるゲームプレイデータを分析し、プレイヤーの進行とリテンションのパターンを<strong>特定</strong>しました。",
-                                    "<strong>ゲーム内イベント</strong>と季節コンテンツの展開を最適化するためのインサイトを提供し、プレイヤーエンゲージメントに直接影響を与えました。",
-                                    "新機能やデジタルストアフロントの変更の影響を評価するために、プロダクトおよびマネタイズチームと<strong>協力</strong>しました。"
-                                ]
-                            },
-                            "province": "東京",
-                            "country": "日本",
-                            "institution": "コナミデジタルエンタテインメント",
-                            "tags": ["データ分析", "ゲーム分析", "SQL", "Python", "ビジスメトリクス"]
+                            "province": "Xi'an",
+                            "country": "China",
+                            "institution": "Tonglu Technology Co., Ltd.",
+                            "tags": ["Java", "SpringBoot"]
                         }
                     }
                 }

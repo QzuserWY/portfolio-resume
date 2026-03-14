@@ -3,273 +3,95 @@
         {
             "id": 1,
             "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "个人爱好" },
+                "en": { "title": "Hobbies" }
+            },
             "settings": {
                 "order_items_by": "id",
                 "order_items_sort": "asc",
                 "max_items_per_line": 2,
                 "transparent_item_icon_background": false,
-                "small_icons": true,
-                "chart": "pie"
+                "small_icons": true
             },
             "items": [
                 {
                     "id": 1,
-                    "fallbackFaIcon": "fa-solid fa-users",
-                    "fallbackFaIconColor": "#0F0398",
-                    "percentage": 20,
+                    "fallbackFaIcon": "fa-solid fa-gamepad",
+                    "fallbackFaIconColor": "#722ed1",
+                    "percentage": 30,
                     "locales": {
+                        "zh": {
+                            "title": "独立游戏爱好者",
+                            "description": "热爱探索各类独立游戏，深入研究游戏设计与机制，擅长Mod开发"
+                        },
                         "en": {
-                            "title": "Family Time",
-                            "description": "Time spent with cherished loved ones."
-                        },
-                        "pt": {
-                            "title": "Família",
-                            "description": "Tempo passado com entes queridos."
-                        },
-                        "ru": {
-                            "title": "Семья",
-                            "description": "Время, проведенное с любимыми людьми."
-                        },
-                        "ja": {
-                            "title": "家族の時間",
-                            "description": "大切な人たちと過ごす時間。"
+                            "title": "Indie Game Enthusiast",
+                            "description": "Love exploring indie games and studying game design"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "fallbackFaIcon": "fa-solid fa-tasks",
-                    "fallbackFaIconColor": "#786F52",
+                    "fallbackFaIcon": "fa-solid fa-microscope",
+                    "fallbackFaIconColor": "#1890ff",
                     "percentage": 25,
                     "locales": {
+                        "zh": {
+                            "title": "研究新技术",
+                            "description": "持续关注 AI、大模型等前沿技术动态，探索新技术在实际项目中的应用"
+                        },
                         "en": {
-                            "title": "My Projects",
-                            "description": "Pursuing my creative endeavors."
-                        },
-                        "pt": {
-                            "title": "Meus Projetos",
-                            "description": "Trabalhando em meus empreendimentos criativos."
-                        },
-                        "ru": {
-                            "title": "Мои Проекты",
-                            "description": "Занимаясь своими творческими начинаниями."
-                        },
-                        "ja": {
-                            "title": "私のプロジェクト",
-                            "description": "私のクリエイティブな取り組みを追求する。"
+                            "title": "Tech Research",
+                            "description": "Continuously following AI and cutting-edge technologies"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "fallbackFaIcon": "fa-solid fa-couch",
-                    "fallbackFaIconColor": "#FEB95F",
+                    "fallbackFaIcon": "fa-solid fa-person-biking",
+                    "fallbackFaIconColor": "#52c41a",
                     "percentage": 20,
                     "locales": {
+                        "zh": {
+                            "title": "户外骑行",
+                            "description": "喜欢骑行探索城市周边，享受沿途风景，放松身心"
+                        },
                         "en": {
-                            "title": "Relaxing",
-                            "description": "Chilling out, unwinding from life's tensions."
-                        },
-                        "pt": {
-                            "title": "Relaxando",
-                            "description": "Tempo para relaxar e descontrair."
-                        },
-                        "ru": {
-                            "title": "Отдых",
-                            "description": "Время для отдыха и расслабления."
-                        },
-                        "ja": {
-                            "title": "リラックス",
-                            "description": "人生の緊張から解放される時間。"
+                            "title": "Cycling",
+                            "description": "Enjoy cycling and exploring surroundings"
                         }
                     }
                 },
                 {
                     "id": 4,
-                    "fallbackFaIcon": "fa-solid fa-book",
-                    "fallbackFaIconColor": "#0E9639",
-                    "percentage": 20,
-                    "locales": {
-                        "en": {
-                            "title": "Studying",
-                            "description": "Always on a continuous journey of learning."
-                        },
-                        "pt": {
-                            "title": "Estudos",
-                            "description": "Sempre em uma jornada contínua de aprendizado."
-                        },
-                        "ru": {
-                            "title": "Учеба",
-                            "description": "Всегда на пути к непрерывному обучению."
-                        },
-                        "ja": {
-                            "title": "勉強",
-                            "description": "常に学び続ける旅を続けています。"
-                        }
-                    }
-                },
-                {
-                    "id": 5,
-                    "fallbackFaIcon": "fa-solid fa-gamepad",
-                    "fallbackFaIconColor": "#C2095A",
+                    "fallbackFaIcon": "fa-solid fa-couch",
+                    "fallbackFaIconColor": "#faad14",
                     "percentage": 15,
                     "locales": {
+                        "zh": {
+                            "title": "在家沉思",
+                            "description": "安静思考人生，享受独处时光，阅读技术书籍"
+                        },
                         "en": {
-                            "title": "Gaming",
-                            "description": "I'm an avid gamer!"
-                        },
-                        "pt": {
-                            "title": "Jogos",
-                            "description": "Sou um gamer ávido!"
-                        },
-                        "ru": {
-                            "title": "Игры",
-                            "description": "Я заядлый геймер!"
-                        },
-                        "ja": {
-                            "title": "ゲーム",
-                            "description": "私は熱心なゲーマーです！"
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "component": "ArticleSkills",
-            "locales": {
-                "en": {
-                    "title": "Side Pursuits",
-                    "description": "Apart from data analysis, this is what I love to study:"
-                },
-                "pt": {
-                    "title": "Atividades Paralelas",
-                    "description": "Além de análise de dados, isso é o que eu amo estudar:"
-                },
-                "ru": {
-                    "title": "Дополнительные Увлечения",
-                    "description": "Помимо анализа данных, вот что мне нравится изучать:"
-                },
-                "ja": {
-                    "title": "副業",
-                    "description": "データ分析以外に、私が学ぶのが大好きなことは次のとおりです:"
-                }
-            },
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "asc",
-                "max_items_per_line": 1,
-                "transparent_item_icon_background": true,
-                "small_icons": false
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "fallbackFaIcon": "fa-solid fa-chart-line",
-                    "locales": {
-                        "en": {
-                            "title": "Investments",
-                            "description": "I'm a huge adept of the FIRE movement, focusing on financial independence and early retirement."
-                        },
-                        "pt": {
-                            "title": "Investimentos",
-                            "description": "Sou um grande adepto do movimento FIRE, focando em independência financeira e aposentadoria precoce."
-                        },
-                        "ru": {
-                            "title": "Инвестиции",
-                            "description": "Я большой сторонник движения FIRE, сосредоточенного на финансовой независимости и раннем выходе на пенсию."
-                        },
-                        "ja": {
-                            "title": "投資",
-                            "description": "私はFIRE運動の大ファンで、経済的独立と早期退職に焦点を当てています。"
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "fallbackFaIcon": "fa-solid fa-robot",
-                    "locales": {
-                        "en": {
-                            "title": "Artificial Intelligence",
-                            "description": "I love studying AI and its applications in various fields, especially in video editing and automation."
-                        },
-                        "pt": {
-                            "title": "Inteligência Artificial",
-                            "description": "Adoro estudar IA e suas aplicações em vários campos, especialmente em edição de vídeo e automação."
-                        },
-                        "ru": {
-                            "title": "Искусственный Интеллект",
-                            "description": "Мне нравится изучать ИИ и его применение в различных областях, особенно в видеомонтаже и автоматизации."
-                        },
-                        "ja": {
-                            "title": "人工知能",
-                            "description": "AIとそのさまざまな分野での応用、特にビデオ編集と自動化の研究が大好きです。"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "fallbackFaIcon": "fa-solid fa-music",
-                    "locales": {
-                        "en": {
-                            "title": "Music Production",
-                            "description": "I have a passion for creating music and sound design - DJ in my free time! :)"
-                        },
-                        "pt": {
-                            "title": "Produção Musical",
-                            "description": "Tenho paixão por criar música e design de som - DJ nas horas vagas! :)"
-                        },
-                        "ru": {
-                            "title": "Музыкальное Производство",
-                            "description": "Я увлекаюсь созданием музыки и звукового дизайна - DJ в свободное время! :)"
-                        },
-                        "ja": {
-                            "title": "音楽制作",
-                            "description": "音楽とサウンドデザインの制作に情熱を注いでいます - 余暇にはDJもしています！ :)"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "fallbackFaIcon": "fa-solid fa-camera",
-                    "locales": {
-                        "en": {
-                            "title": "Photography",
-                            "description": "Capturing moments and telling stories through images."
-                        },
-                        "pt": {
-                            "title": "Fotografia",
-                            "description": "Capturando momentos e contando histórias através de imagens."
-                        },
-                        "ru": {
-                            "title": "Фотография",
-                            "description": "Запечатлеваю моменты и рассказываю истории через изображения."
-                        },
-                        "ja": {
-                            "title": "写真",
-                            "description": "画像を通じて瞬間を捉え、物語を語る。"
+                            "title": "Contemplation",
+                            "description": "Quiet thinking and enjoying solitary time"
                         }
                     }
                 },
                 {
                     "id": 5,
-                    "fallbackFaIcon": "fa-solid fa-palette",
+                    "fallbackFaIcon": "fa-solid fa-book",
+                    "fallbackFaIconColor": "#eb2f96",
+                    "percentage": 10,
                     "locales": {
+                        "zh": {
+                            "title": "阅读",
+                            "description": "喜欢阅读各类技术书籍和文学作品，持续充实自己"
+                        },
                         "en": {
-                            "title": "Digital Art",
-                            "description": "Exploring creativity through digital illustrations and designs."
-                        },
-                        "pt": {
-                            "title": "Arte Digital",
-                            "description": "Explorando a criatividade através de ilustrações e designs digitais."
-                        },
-                        "ru": {
-                            "title": "Цифровое Искусство",
-                            "description": "Исследование творчества через цифровые иллюстрации и дизайны."
-                        },
-                        "ja": {
-                            "title": "デジタルアート",
-                            "description": "デジタルイラストとデザインを通じて創造性を探求する。"
+                            "title": "Reading",
+                            "description": "Enjoy reading technical books and literature"
                         }
                     }
                 }

@@ -10,59 +10,22 @@
             "items": [
                 {
                     "id": 1,
-                    "dateStart": {"year": 2018, "month": 12},
+                    "dateStart": {"year": 2016, "month": 9},
+                    "dateEnd": {"year": 2020, "month": 7},
                     "fallbackFaIcon": "fa-solid fa-graduation-cap",
-                    "fallbackFaIconColor": null,
+                    "fallbackFaIconColor": "#1890ff",
                     "locales": {
+                        "zh": {
+                            "title": "本科 - 信息与计算机学院",
+                            "description": "211 双一流大学，系统学习了计算机科学基础知识，包括数据结构、算法、数据库、计算机网络等核心课程，为后续软件开发打下坚实基础。",
+                            "institution": "太原理工大学"
+                        },
                         "en": {
-                            "title": "Bachelor in Data Science",
-                            "description": "Earn a Bachelor degree in Data Science, focusing on <strong>data analysis</strong>, <strong>machine learning</strong>, and <strong>big data</strong> technologies. This program prepares students for a career in the rapidly growing field of data science. Awarded by the University of São Paulo (USP), this degree combines theoretical knowledge with practical skills in data handling and analysis.",
-                            "institution": "Universidade de São Paulo (USP)"
-                        },
-                        "pt": {
-                            "title": "Bacharelado em Ciência de Dados",
-                            "description": "Obtenha um diploma de Bacharel em Ciência de Dados, com foco em <strong>análise de dados</strong>, <strong>aprendizado de máquina</strong> e tecnologias de <strong>big data</strong>. Este programa prepara os alunos para uma carreira no campo em rápido crescimento da ciência de dados. Concedido pela Universidade de São Paulo (USP), este diploma combina conhecimento teórico com habilidades práticas em manipulação e análise de dados."
-                        },
-                        "ru": {
-                            "title": "Бакалавр в области науки о данных",
-                            "description": "Получите степень бакалавра в области науки о данных, сосредоточив внимание на <strong>анализе данных</strong>, <strong>машинном обучении</strong> и технологиях <strong>больших данных</strong>. Эта программа готовит студентов к карьере в быстро развивающейся области науки о данных. Присуждается Университетом Сан-Паулу (USP), эта степень сочетает теоретические знания с практическими навыками в обработке и анализе данных."
-                        },
-                        "ja": {
-                            "title": "データサイエンスの学士号",
-                            "description": "データサイエンスの学士号を取得し、<strong>データ分析</strong>、<strong>機械学習</strong>、および<strong>ビッグデータ</strong>技術に焦点を当てます。このプログラムは、急成長しているデータサイエンス分野でのキャリアを目指す学生を準備します。サンパウロ大学（USP）によって授与され、この学位はデータ処理と分析における理論的知識と実践的スキルを組み合わせています。"
+                            "title": "Bachelor - Information & Computer Science",
+                            "description": "211 University, studied computer science fundamentals.",
+                            "institution": "Taiyuan University of Technology"
                         }
                     }
-                },
-                {
-                    "id": 2,
-                    "dateStart": { "year": 2022, "month": 3 },
-                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
-                    "fallbackFaIconColor": null,
-                    "locales": {
-                        "en": {
-                            "title": "MBA in Business Analytics",
-                            "description": "Completed a Master of Business Administration with a <strong>specialization in Business Analytics</strong>. The program emphasized data-driven decision making, strategic thinking, and leadership in digital transformation. Gained experience in data visualization, forecasting, and using analytics to solve real-world business problems.",
-                            "institution": "University of Tokyo (UTokyo)"
-                        },
-                        "pt": {
-                            "title": "MBA em Análise de Negócios",
-                            "description": "Concluiu um Mestrado em Administração de Empresas com <strong>especialização em Análise de Negócios</strong>. O programa enfatizou a tomada de decisões baseada em dados, o pensamento estratégico e a liderança na transformação digital. Adquiriu experiência em visualização de dados, previsão e uso de análises para resolver problemas reais de negócios.",
-                            "institution": "Universidade de Tóquio (UTokyo)"
-                        },
-                        "ru": {
-                            "title": "MBA в области бизнес-аналитики",
-                            "description": "Завершил программу MBA со <strong>специализацией в области бизнес-аналитики</strong>. Программа акцентировала внимание на принятии решений на основе данных, стратегическом мышлении и лидерстве в цифровой трансформации. Получил опыт в визуализации данных, прогнозировании и использовании аналитики для решения реальных бизнес-проблем.",
-                            "institution": "Токийский университет (UTokyo)"
-                        },
-                        "ja": {
-                            "title": "ビジネスアナリティクスのMBA",
-                            "description": "ビジネスアナリティクスを専門とする経営学修士（MBA）を修了しました。プログラムは、データ駆動型の意思決定、戦略的思考、およびデジタルトランスフォーメーションにおけるリーダーシップを強調しました。データの可視化、予測、および実際のビジネス問題を解決するための分析の使用に関する経験を得ました。",
-                            "institution": "東京大学 (UTokyo)"
-                        }
-                    },
-                    "links": [
-                        {"href": "https://google.com", "stringKey": "view_more_info"}
-                    ]
                 }
             ]
         },
@@ -70,110 +33,53 @@
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": { "title": "Extracurricular Courses" },
-                "pt": { "title": "Cursos Extracurriculares" },
-                "ru": { "title": "Внеучебные курсы" },
-                "ja": { "title": "課外コース" }
+                "zh": { "title": "专业技能学习" },
+                "en": { "title": "Professional Skills Learning" }
             },
             "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "desc"
+                "order_items_by": "dateStart",
+                "order_items_sort": "asc"
             },
             "items": [
                 {
                     "id": 1,
-                    "dateStart": { "year": 2023, "month": 6 },
-                    "fallbackFaIcon": "fa-solid fa-print",
-                    "fallbackFaIconColor": null,
+                    "dateStart": {"year": 2020, "month": 7},
+                    "fallbackFaIcon": "fa-solid fa-book",
+                    "fallbackFaIconColor": "#52c41a",
                     "locales": {
-                        "en": {
-                            "title": "Data Visualization with Python",
-                            "description": "Completed a practical course covering <strong>advanced data visualization techniques</strong> using Matplotlib, Seaborn, and Folium. Learned to translate complex datasets into clear, insightful graphics for data storytelling and presentation.",
-                            "institution": "University of Toronto (via Coursera)"
-                        },
-                        "pt": {
-                            "title": "Visualização de Dados com Python",
-                            "description": "Concluiu um curso prático cobrindo <strong>técnicas avançadas de visualização de dados</strong> usando Matplotlib, Seaborn e Folium. Aprendeu a traduzir conjuntos de dados complexos em gráficos claros e perspicazes para contar histórias com dados e apresentações.",
-                            "institution": "Universidade de Toronto (via Coursera)"
-                        },
-                        "ru": {
-                            "title": "Визуализация данных с помощью Python",
-                            "description": "Завершил практический курс, охватывающий <strong>продвинутые методы визуализации данных</strong> с использованием Matplotlib, Seaborn и Folium. Научился преобразовывать сложные наборы данных в четкие и информативные графики для повествования и презентации данных.",
-                            "institution": "Торонто Университет (через Coursera)"
-                        },
-                        "ja": {
-                            "title": "Pythonによるデータ可視化",
-                            "description": "Matplotlib、Seaborn、およびFoliumを使用した<strong>高度なデータ可視化技術</strong>をカバーする実践的なコースを修了しました。複雑なデータセットを明確で洞察に満ちたグラフィックスに変換し、データストーリーテリングとプレゼンテーションのために学びました。",
-                            "institution": "トロント大学（Coursera経由）"
+                        "zh": {
+                            "title": "Java 核心技术",
+                            "description": "系统学习 SpringBoot、SpringCloud、MyBatis 等主流框架，掌握微服务架构设计与开发。",
+                            "institution": "自学"
                         }
-                    },
-                    "links": [
-                        {"href": "https://res.cloudinary.com/certifier/image/upload/v1718876081/completion_certificate_templates_Certifier_blog_stylish_758c35f7ac.jpg", "stringKey": "view_completion_certificate"}
-                    ]
+                    }
                 },
                 {
                     "id": 2,
-                    "dateStart": { "year": 2025, "month": 2 },
-                    "fallbackFaIcon": "fa-solid fa-print",
-                    "fallbackFaIconColor": null,
+                    "dateStart": {"year": 2023, "month": 6},
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "fallbackFaIconColor": "#faad14",
                     "locales": {
-                        "en": {
-                            "title": "Fundamentals of Data Ethics",
-                            "description": "Explored key principles in <strong>ethical data handling</strong>, privacy, and algorithmic transparency. The course emphasized the societal impact of data science and the responsibility of analysts in both commercial and academic contexts.",
-                            "institution": "University of Tokyo"
-                        },
-                        "pt": {
-                            "title": "Fundamentos da Ética de Dados",
-                            "description": "Explorou os princípios-chave no <strong>manuseio ético de dados</strong>, privacidade e transparência algorítmica. O curso enfatizou o impacto social da ciência de dados e a responsabilidade dos analistas em contextos comerciais e acadêmicos.",
-                            "institution": "Universidade de Tóquio"
-                        },
-                        "ru": {
-                            "title": "Основы этики данных",
-                            "description": "Изучил ключевые принципы <strong>этичного обращения с данными</strong>, конфиденциальности и прозрачности алгоритмов. Курс акцентировал внимание на социальном воздействии науки о данных и ответственности аналитиков как в коммерческих, так и в академических контекстах.",
-                            "institution": "Токийский университет"
-                        },
-                        "ja": {
-                            "title": "データ倫理の基礎",
-                            "description": "データサイエンスの社会的影響と、商業および学術的な文脈でのアナリストの責任を強調する<strong>倫理的なデータ処理</strong>、プライバシー、およびアルゴリズムの透明性に関する主要な原則を探求しました。",
-                            "institution": "東京大学"
+                        "zh": {
+                            "title": "国产数据库",
+                            "description": "学习并掌握人大金仓、神舟通用等国产数据库的使用与优化。",
+                            "institution": "项目实践"
                         }
-                    },
-                    "links": [
-                        {"href": "https://res.cloudinary.com/certifier/image/upload/v1718876081/completion_certificate_templates_Certifier_blog_stylish_758c35f7ac.jpg", "stringKey": "view_completion_certificate"}
-                    ]
+                    }
                 },
                 {
                     "id": 3,
-                    "dateStart": { "year": 2025, "month": 4 },
-                    "fallbackFaIcon": "fa-solid fa-print",
-                    "fallbackFaIconColor": null,
+                    "dateStart": {"year": 2025, "month": 10},
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": "#722ed1",
                     "locales": {
-                        "en": {
-                            "title": "Responsible AI Practices",
-                            "description": "Learned how to build <strong>accountable and transparent AI systems</strong> by integrating ethical review processes, bias detection, and fairness evaluations into the machine learning lifecycle.",
-                            "institution": "Google AI"
-                        },
-                        "pt": {
-                            "title": "Práticas Responsáveis de IA",
-                            "description": "Aprendi a construir <strong>sistemas de IA transparentes e responsáveis</strong>, integrando processos de revisão ética, detecção de viés e avaliações de equidade ao ciclo de vida do aprendizado de máquina.",
-                            "institution": "Google AI"
-                        },
-                        "ru": {
-                            "title": "Ответственные практики ИИ",
-                            "description": "Изучил, как создавать <strong>прозрачные и подотчётные системы ИИ</strong>, включая этическую экспертизу, выявление предвзятости и оценку справедливости в жизненном цикле машинного обучения.",
-                            "institution": "Google AI"
-                        },
-                        "ja": {
-                            "title": "責任あるAIの実践",
-                            "description": "機械学習ライフサイクルにおいて、倫理的レビュー、バイアス検出、そして公平性評価を取り入れることで、<strong>説明可能で責任あるAIシステム</strong>の構築方法を学びました。",
-                            "institution": "Google AI"
+                        "zh": {
+                            "title": "AI 工具应用",
+                            "description": "深入学习 Cursor、OpenClaw 等 AI 编程工具，探索 AI 辅助软件开发最佳实践。",
+                            "institution": "自学"
                         }
-                    },
-                    "links": [
-                        { "href": "https://res.cloudinary.com/certifier/image/upload/v1718876081/completion_certificate_templates_Certifier_blog_stylish_758c35f7ac.jpg", "stringKey": "view_completion_certificate" }
-                    ]
+                    }
                 }
-
             ]
         }
     ]
