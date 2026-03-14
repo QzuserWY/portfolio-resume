@@ -1,0 +1,19 @@
+{
+    "preloaderEnabled": true,
+    "navToggleEnabled": true,
+    "supportedLanguages": [
+        {
+            "name": "中文",
+            "id": "zh",
+            "flagUrl": "images/flags/zh.png",
+            "default": true
+        },
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-uk.png",
+            "default": false
+        }
+    ],
+    "defaultLanguage": "zh"
+}

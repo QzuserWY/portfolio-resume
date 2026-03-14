@@ -1,0 +1,86 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleThread",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2016, "month": 9},
+                    "dateEnd": {"year": 2020, "month": 7},
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "fallbackFaIconColor": "#1890ff",
+                    "locales": {
+                        "zh": {
+                            "title": "本科 - 信息与计算机学院",
+                            "description": "211 双一流大学，系统学习了计算机科学基础知识，包括数据结构、算法、数据库、计算机网络等核心课程，为后续软件开发打下坚实基础。",
+                            "institution": "太原理工大学"
+                        },
+                        "en": {
+                            "title": "Bachelor - Information & Computer Science",
+                            "description": "211 University, studied computer science fundamentals.",
+                            "institution": "Taiyuan University of Technology"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "zh": { "title": "专业技能学习" },
+                "en": { "title": "Professional Skills Learning" }
+            },
+            "settings": {
+                "order_items_by": "dateStart",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2020, "month": 7},
+                    "fallbackFaIcon": "fa-solid fa-book",
+                    "fallbackFaIconColor": "#52c41a",
+                    "locales": {
+                        "zh": {
+                            "title": "Java 核心技术",
+                            "description": "系统学习 SpringBoot、SpringCloud、MyBatis 等主流框架，掌握微服务架构设计与开发。",
+                            "institution": "自学"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2023, "month": 6},
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "fallbackFaIconColor": "#faad14",
+                    "locales": {
+                        "zh": {
+                            "title": "国产数据库",
+                            "description": "学习并掌握人大金仓、神舟通用等国产数据库的使用与优化。",
+                            "institution": "项目实践"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2025, "month": 10},
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": "#722ed1",
+                    "locales": {
+                        "zh": {
+                            "title": "AI 工具应用",
+                            "description": "深入学习 Cursor、OpenClaw 等 AI 编程工具，探索 AI 辅助软件开发最佳实践。",
+                            "institution": "自学"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

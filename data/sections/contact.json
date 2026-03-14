@@ -1,0 +1,41 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleContactOptions",
+      "locales": {
+        "zh": {
+          "title": "联系方式",
+          "description": "欢迎通过以下方式与我联系，期待交流合作。",
+          "quote": "真正有价值的交付，不止能跑通流程，还能让团队更安心。"
+        },
+        "en": {
+          "title": "Contact Me",
+          "description": "Feel free to reach out through the channels below.",
+          "quote": "I believe good technology should never make us distant. It should make communication more sincere and people closer."
+        },
+        "pt": {
+          "title": "Contato",
+          "description": "Fique à vontade para entrar em contato pelos canais abaixo.",
+          "quote": "Eu acredito que a boa tecnologia nao deve nos tornar frios. Ela deve tornar a comunicacao mais sincera e aproximar as pessoas."
+        },
+        "ru": {
+          "title": "Контакты",
+          "description": "Свяжитесь со мной удобным для вас способом ниже.",
+          "quote": "Я верю, что хорошие технологии не должны делать нас холоднее. Они должны делать общение искреннее и людей ближе."
+        },
+        "ja": {
+          "title": "お問い合わせ",
+          "description": "以下の方法でお気軽にご連絡ください。",
+          "quote": "良い技術は人を冷たくするものではなく、対話をより誠実にし、人と人の距離を近づけるものだと信じています。"
+        }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc",
+        "contact_ids": ["phone", "email"]
+      },
+      "items": null
+    }
+  ]
+}

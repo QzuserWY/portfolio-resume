@@ -1,0 +1,102 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": { "year": 2022, "month": 2 },
+                    "dateEnd": { "string": "now" },
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": "#722ed1",
+                    "locales": {
+                        "zh": {
+                            "title": "AI应用工程师",
+                            "description": "新时代软件开发，集成 AI 辅助能力，集需求调研、开发、部署、文档编写于一体。",
+                            "list": {
+                                "title": "工作内容：",
+                                "items": [
+                                    "AI 辅助开发：使用 Cursor、OpenClaw 提升效率",
+                                    "需求与设计：参与需求调研、数据库设计",
+                                    "开发与实现：接口编写、功能研发",
+                                    "汇报与培训：系统演示、用户培训",
+                                    "部署与维护：服务部署、文档编写"
+                                ]
+                            },
+                            "province": "西安市",
+                            "country": "中国",
+                            "institution": "陕西北斗恒星科技发展有限公司",
+                            "tags": ["AI应用", "Java", "SpringBoot", "Cursor", "OpenClaw"]
+                        },
+                        "en": {
+                            "title": "AI Application Engineer",
+                            "description": "Modern software development with AI-assisted capabilities, integrating requirements, development, deployment, and documentation.",
+                            "list": {
+                                "title": "Responsibilities:",
+                                "items": [
+                                    "AI-assisted development using Cursor and OpenClaw",
+                                    "Requirements and database design",
+                                    "Development and implementation",
+                                    "Demonstrations and user training",
+                                    "Deployment and documentation"
+                                ]
+                            },
+                            "province": "Xi'an",
+                            "country": "China",
+                            "institution": "Shaanxi Beidou Star Technology Development Co., Ltd.",
+                            "tags": ["AI Application", "Java", "SpringBoot", "Cursor", "OpenClaw"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "dateStart": { "year": 2020, "month": 9 },
+                    "dateEnd": { "year": 2022, "month": 2 },
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-code",
+                    "fallbackFaIconColor": "#52c41a",
+                    "locales": {
+                        "zh": {
+                            "title": "Java 开发工程师",
+                            "description": "根据客户需求，参与软件设计、开发、上线过程。",
+                            "list": {
+                                "title": "工作内容：",
+                                "items": [
+                                    "参与软件设计与开发",
+                                    "按时完成模块开发任务",
+                                    "编写技术文档"
+                                ]
+                            },
+                            "province": "西安市",
+                            "country": "中国",
+                            "institution": "同路科技有限公司",
+                            "tags": ["Java", "SpringBoot"]
+                        },
+                        "en": {
+                            "title": "Java Developer",
+                            "description": "Participated in software design, development, and deployment based on client requirements.",
+                            "list": {
+                                "title": "Responsibilities:",
+                                "items": [
+                                    "Software design and development",
+                                    "Module development",
+                                    "Technical documentation"
+                                ]
+                            },
+                            "province": "Xi'an",
+                            "country": "China",
+                            "institution": "Tonglu Technology Co., Ltd.",
+                            "tags": ["Java", "SpringBoot"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "zh": {
+                    "category_all": "全部",
+                    "category_commercial": "工作项目",
+                    "category_open_source": "个人项目"
+                },
+                "en": {
+                    "category_all": "All",
+                    "category_commercial": "Work Projects",
+                    "category_open_source": "Personal Projects"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-building",
+                    "locales": {
+                        "zh": {
+                            "title": "住建厅行政审批项目",
+                            "description": "行政审批项目是为企业法人和个人提供资质新办、延续、换领、注销等服务的一体化系统。它涵盖企业端和个人端的上报、查询功能，以及管理端的审批功能，优化审批流程，提高办事效率。",
+                            "tags": ["SpringCloud", "人大金仓数据库", "微服务"]
+                        },
+                        "en": {
+                            "title": "Housing Authority Approval System",
+                            "description": "An integrated system for enterprise and individual qualification applications.",
+                            "tags": ["SpringCloud", "Kingbase", "Microservices"]
+                        }
+                    },
+                    "links": []
+                },
+                {
+                    "id": 2,
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-flag",
+                    "locales": {
+                        "zh": {
+                            "title": "西安市智慧党建系统",
+                            "description": "西安市智慧党建系统（一期）项目集成了紧急事件调度模块、数据管理与数据采集、VR党建活动中心视频展示等功能模块，有力发挥党员干部群众力量。",
+                            "tags": ["SpringCloud", "神舟通用数据库", "数据采集"]
+                        },
+                        "en": {
+                            "title": "Xi'an Smart Party Building System",
+                            "description": "Integrated emergency dispatch, data management, VR party building modules.",
+                            "tags": ["SpringCloud", "ShenZhou", "Data Collection"]
+                        }
+                    },
+                    "links": []
+                },
+                {
+                    "id": 3,
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-leaf",
+                    "locales": {
+                        "zh": {
+                            "title": "陕西省农业厅监测分析系统",
+                            "description": "陕西省农业厅检测分析系统是基于已有检测分析系统，开发的二期项目。是收集并分析陕西省畜牧业、种植业、农业机械、果业、渔业渔政、农业产业化等多个数据平台的资源共享交换平台。",
+                            "tags": ["SpringCloud", "人大金仓数据库", "数据分析"]
+                        },
+                        "en": {
+                            "title": "Shaanxi Agriculture Department Monitoring System",
+                            "description": "A data exchange platform for agriculture and animal husbandry data.",
+                            "tags": ["SpringCloud", "Kingbase", "Data Analysis"]
+                        }
+                    },
+                    "links": []
+                },
+                {
+                    "id": 4,
+                    "category": "commercial",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-industry",
+                    "locales": {
+                        "zh": {
+                            "title": "榆林小保当煤矿公司线上平台",
+                            "description": "小保当线上平台是基于陕煤集团榆林小保当煤矿公司发展现状，集运营数据一览、合同起草管理、下矿值班管理、生产计划调度等众多功能为一体，设计的线上管理与数据展示平台。",
+                            "tags": ["SpringBoot", "JeecgBoot", "Redis", "MQTT", "Nifi"]
+                        },
+                        "en": {
+                            "title": "Xiaobaodang Coal Mine Online Platform",
+                            "description": "An online management and data display platform for coal mining operations.",
+                            "tags": ["SpringBoot", "JeecgBoot", "Redis", "MQTT", "Nifi"]
+                        }
+                    },
+                    "links": []
+                },
+                {
+                    "id": 5,
+                    "category": "open_source",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-dragon",
+                    "locales": {
+                        "zh": {
+                            "title": "暗黑地牢 Mod 排序工具",
+                            "description": "为游戏《暗黑地牢》开发的 Mod 排序辅助工具，帮助玩家管理和优化 Mod 加载顺序，提升游戏体验。",
+                            "tags": ["Python", "GUI", "游戏辅助"]
+                        },
+                        "en": {
+                            "title": "Darkest Dungeon Mod Sorter",
+                            "description": "A mod sorting tool for Darkest Dungeon to help players manage mod load order.",
+                            "tags": ["Python", "GUI", "Gaming"]
+                        }
+                    },
+                    "links": []
+                },
+                {
+                    "id": 6,
+                    "category": "open_source",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-gamepad",
+                    "locales": {
+                        "zh": {
+                            "title": "边缘世界游戏模组开发",
+                            "description": "为《边缘世界》(RimWorld) 游戏开发的各种功能性模组，包括建筑优化、AI 行为改进、游戏平衡调整等。",
+                            "tags": ["C#", "Unity", "游戏模组"]
+                        },
+                        "en": {
+                            "title": "RimWorld Mod Development",
+                            "description": "Various functional mods for RimWorld including building optimization and AI behavior improvements.",
+                            "tags": ["C#", "Unity", "Game Mod"]
+                        }
+                    },
+                    "links": []
+                },
+                {
+                    "id": 7,
+                    "category": "open_source",
+                    "img": "",
+                    "fallbackFaIcon": "fa-solid fa-book-open",
+                    "locales": {
+                        "zh": {
+                            "title": "漫画刮削工具",
+                            "description": "开发的漫画资源整理工具，支持从多个来源自动刮削漫画信息，整理本地漫画库。",
+                            "tags": ["Python", "爬虫", "GUI"]
+                        },
+                        "en": {
+                            "title": "Comic Scraper Tool",
+                            "description": "A comic resource organization tool that automatically scrapes comic info from multiple sources.",
+                            "tags": ["Python", "Scraper", "GUI"]
+                        }
+                    },
+                    "links": []
+                }
+            ]
+        }
+    ]
+}

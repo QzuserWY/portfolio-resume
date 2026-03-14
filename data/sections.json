@@ -1,0 +1,177 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "profile",
+            "jsonPath": "/sections/about.json",
+            "faIcon": "fa-regular fa-address-card",
+            "type": "centered",
+            "locales": {
+                "zh": {
+                    "title": "关于我",
+                    "title_short": "关于",
+                    "nav_label": "关于"
+                },
+                "en": {
+                    "title": "A tiny bit *about me...*",
+                    "title_short": "About Me",
+                    "nav_label": "About"
+                }
+            }
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "pi pi-briefcase",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "工作经历",
+                    "title_short": null,
+                    "description": "我的职业历程",
+                    "nav_label": "经历"
+                },
+                "en": {
+                    "title": "*Professional* Experience",
+                    "title_short": null,
+                    "description": "An overview of my professional journey.",
+                    "nav_label": "Experience"
+                }
+            }
+        },
+
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "pi pi-graduation-cap",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "教育背景与学习历程",
+                    "title_short": null,
+                    "description": "我的学术背景与持续学习",
+                    "nav_label": "教育"
+                },
+                "en": {
+                    "title": "*Education* Background",
+                    "title_short": null,
+                    "description": "A glimpse into my academic trajectory and accomplishments.",
+                    "nav_label": "Education"
+                }
+            }
+        },
+
+        {
+            "id": "skills",
+            "categoryId": "profile",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "pi pi-wrench",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "技能专长",
+                    "title_short": null,
+                    "description": "我的核心技能：",
+                    "nav_label": "技能"
+                },
+                "en": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": "Core soft skills that define my approach:",
+                    "nav_label": "Skills"
+                }
+            }
+        },
+
+        {
+            "id": "freelancing",
+            "categoryId": "portfolio",
+            "jsonPath": "/sections/freelancing.json",
+            "faIcon": "pi pi-folder-open",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "项目经验",
+                    "title_short": null,
+                    "description": "展示我的项目作品",
+                    "nav_label": "项目"
+                },
+                "en": {
+                    "title": "*Freelance* Projects",
+                    "title_short": null,
+                    "description": "A showcase of my freelance work and contributions.",
+                    "nav_label": "Projects"
+                }
+            }
+        },
+
+        {
+            "id": "endorsements",
+            "categoryId": "portfolio",
+            "jsonPath": "/sections/endorsements.json",
+            "faIcon": "pi pi-thumbs-up",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "个人优势",
+                    "title_short": "优势",
+                    "description": "我的核心竞争力",
+                    "nav_label": "优势"
+                },
+                "en": {
+                    "title": "Personal *Strengths*",
+                    "title_short": "Strengths",
+                    "description": "My core competitiveness",
+                    "nav_label": "Strengths"
+                }
+            }
+        },
+
+        {
+            "id": "hobbies",
+            "categoryId": "profile",
+            "jsonPath": "/sections/hobbies.json",
+            "faIcon": "fa-regular fa-heart",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "个人总结",
+                    "title_short": "爱好",
+                    "description": "我的业余爱好：",
+                    "nav_label": "爱好"
+                },
+                "en": {
+                    "title": "*Hobbies* & Interests",
+                    "title_short": "Hobbies",
+                    "description": "This is how I usually spend my free time:",
+                    "nav_label": "Hobbies"
+                }
+            }
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "contact",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-regular fa-envelope",
+            "type": "column",
+            "locales": {
+                "zh": {
+                    "title": "联系我",
+                    "title_short": null,
+                    "description": "欢迎随时联系",
+                    "nav_label": "联系"
+                },
+                "en": {
+                    "title": "Let's get *in touch*",
+                    "title_short": null,
+                    "description": "Feel free to reach out for any inquiries or collaborations.",
+                    "nav_label": "Contact"
+                }
+            }
+        }
+    ]
+}

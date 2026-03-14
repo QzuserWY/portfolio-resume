@@ -1,0 +1,249 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "AI 应用能力" },
+                "en": { "title": "AI Application Skills" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "locales": {
+                        "zh": {
+                            "title": "AI 辅助开发",
+                            "description": "善于使用 Cursor、OpenClaw 等主流 AI 编程工具，集成需求调研、开发、部署、文档编写于一体，提升开发效率。"
+                        },
+                        "en": {
+                            "title": "AI-Assisted Development",
+                            "description": "Proficient in using AI coding tools like Cursor and OpenClaw, integrating requirements, development, deployment, and documentation."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-wand-magic-sparkles",
+                    "locales": {
+                        "zh": {
+                            "title": "AI 应用集成",
+                            "description": "能够将 AI 能力集成到企业业务系统中，实现智能化升级，提升工作效率和用户体验。"
+                        },
+                        "en": {
+                            "title": "AI Integration",
+                            "description": "Able to integrate AI capabilities into business systems for intelligent upgrades."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-bolt",
+                    "locales": {
+                        "zh": {
+                            "title": "快速开发能力",
+                            "description": "借助 AI 工具实现快速原型开发，缩短项目周期，降低开发成本。"
+                        },
+                        "en": {
+                            "title": "Rapid Development",
+                            "description": "Use AI tools for rapid prototyping, shortening project cycles and reducing costs."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-file-lines",
+                    "locales": {
+                        "zh": {
+                            "title": "文档自动化",
+                            "description": "利用 AI 自动生成技术文档、API 文档、项目汇报材料，提升文档质量与效率。"
+                        },
+                        "en": {
+                            "title": "Documentation Automation",
+                            "description": "Use AI to automatically generate technical docs, API docs, and reports."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "技术栈" },
+                "en": { "title": "Tech Stack" }
+            },
+            "settings": {
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": true,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-brands fa-java",
+                    "percentage": 100,
+                    "locales": {
+                        "zh": {
+                            "title": "Java",
+                            "description": "SpringBoot、Spring Cloud、MyBatis"
+                        },
+                        "en": {
+                            "title": "Java",
+                            "description": "SpringBoot, Spring Cloud, MyBatis"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-cloud",
+                    "percentage": 90,
+                    "locales": {
+                        "zh": {
+                            "title": "Spring Cloud",
+                            "description": "微服务架构设计与开发"
+                        },
+                        "en": {
+                            "title": "Spring Cloud",
+                            "description": "Microservices architecture"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "percentage": 75,
+                    "locales": {
+                        "zh": {
+                            "title": "AI 工具",
+                            "description": "Cursor、OpenClaw、ChatGPT"
+                        },
+                        "en": {
+                            "title": "AI Tools",
+                            "description": "Cursor, OpenClaw, ChatGPT"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-database",
+                    "percentage": 85,
+                    "locales": {
+                        "zh": {
+                            "title": "国产数据库",
+                            "description": "人大金仓、神舟通用、MySQL"
+                        },
+                        "en": {
+                            "title": "Domestic Databases",
+                            "description": "Kingbase, ShenZhou, MySQL"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "fallbackFaIcon": "fa-brands fa-linux",
+                    "percentage": 80,
+                    "locales": {
+                        "zh": {
+                            "title": "Linux",
+                            "description": "服务器部署与维护"
+                        },
+                        "en": {
+                            "title": "Linux",
+                            "description": "Server deployment & maintenance"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "fallbackFaIcon": "fa-solid fa-cube",
+                    "percentage": 75,
+                    "locales": {
+                        "zh": {
+                            "title": "Redis / MQTT",
+                            "description": "缓存与消息队列"
+                        },
+                        "en": {
+                            "title": "Redis / MQTT",
+                            "description": "Caching & Message Queue"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "语言能力" },
+                "en": { "title": "Languages" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 1,
+                "small_icons": true,
+                "transparent_item_icon_background": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-solid fa-language",
+                    "locales": {
+                        "zh": {
+                            "title": "普通话",
+                            "description": "母语",
+                            "level": "母语"
+                        },
+                        "en": {
+                            "title": "Chinese",
+                            "description": "Native",
+                            "level": "Native"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-graduation-cap",
+                    "locales": {
+                        "zh": {
+                            "title": "英语 - CET-4",
+                            "description": "具备良好的英文读写能力",
+                            "level": "CET-4"
+                        },
+                        "en": {
+                            "title": "English - CET-4",
+                            "description": "Good reading and writing skills",
+                            "level": "CET-4"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-globe",
+                    "locales": {
+                        "zh": {
+                            "title": "德语 - A1",
+                            "description": "入门级，正在学习中",
+                            "level": "A1"
+                        },
+                        "en": {
+                            "title": "German - A1",
+                            "description": "Beginner level, currently learning",
+                            "level": "A1"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

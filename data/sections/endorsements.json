@@ -1,0 +1,96 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleSkills",
+            "locales": {
+                "zh": { "title": "个人优势" },
+                "en": { "title": "Personal Strengths" }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "max_items_per_line": 2,
+                "transparent_item_icon_background": false,
+                "small_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "fallbackFaIcon": "fa-solid fa-robot",
+                    "fallbackFaIconColor": "#722ed1",
+                    "locales": {
+                        "zh": {
+                            "title": "AI 时代新技能",
+                            "description": "善于使用主流 AI 应用（Cursor、OpenClaw 等），具备 AI 思维，能够利用 AI 工具提升开发效率，实现需求调研、开发、部署、文档编写一体化工作流程。"
+                        },
+                        "en": {
+                            "title": "AI Era Skills",
+                            "description": "Proficient in mainstream AI tools (Cursor, OpenClaw), with AI mindset to improve development efficiency."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "fallbackFaIcon": "fa-solid fa-rocket",
+                    "fallbackFaIconColor": "#1890ff",
+                    "locales": {
+                        "zh": {
+                            "title": "快速学习能力",
+                            "description": "具备良好的自学能力和动手能力，能够快速学习和应用新技术。"
+                        },
+                        "en": {
+                            "title": "Fast Learning",
+                            "description": "Good self-learning ability, quickly master new technologies."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "fallbackFaIcon": "fa-solid fa-clock",
+                    "fallbackFaIconColor": "#52c41a",
+                    "locales": {
+                        "zh": {
+                            "title": "自我驱动",
+                            "description": "自我驱动和自我管理能力强，能够有效规划和管理工作进程，确保任务准时完成。"
+                        },
+                        "en": {
+                            "title": "Self-Driven",
+                            "description": "Strong self-drive and time management, ensure tasks completed on time."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "fallbackFaIcon": "fa-solid fa-comments",
+                    "fallbackFaIconColor": "#faad14",
+                    "locales": {
+                        "zh": {
+                            "title": "沟通与逻辑",
+                            "description": "出色的沟通能力和较强的逻辑思维，能够清晰表达和解决复杂问题。"
+                        },
+                        "en": {
+                            "title": "Communication",
+                            "description": "Excellent communication and logical thinking, can clearly express and solve complex problems."
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "fallbackFaIcon": "fa-solid fa-code-branch",
+                    "fallbackFaIconColor": "#eb2f96",
+                    "locales": {
+                        "zh": {
+                            "title": "技术追求",
+                            "description": "对编写高质量的代码有极高的要求，致力于提供最优解决方案。对新技术保持持续的兴趣。"
+                        },
+                        "en": {
+                            "title": "Tech Pursuit",
+                            "description": "High standards for quality code, always pursuing optimal solutions and new technologies."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
