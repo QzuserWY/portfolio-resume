@@ -106,7 +106,7 @@ const _loadSectionJsonFiles = async () => {
 
 const _loadJson = async (path) => {
     try {
-        const response = await fetch(basePath + "/data/" + path)
+        const response = await fetch(basePath + path)
         return await response.json()
     }
     catch (e) {
